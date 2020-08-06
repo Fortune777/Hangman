@@ -1,0 +1,5 @@
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb

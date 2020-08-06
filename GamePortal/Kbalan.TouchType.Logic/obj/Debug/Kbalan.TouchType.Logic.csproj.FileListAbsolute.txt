@@ -1,0 +1,10 @@
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\bin\Debug\Kbalan.TouchType.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\bin\Debug\Kbalan.TouchType.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\bin\Debug\NullGuard.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\bin\Debug\NullGuard.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csproj.Fody.CopyLocal.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.pdb

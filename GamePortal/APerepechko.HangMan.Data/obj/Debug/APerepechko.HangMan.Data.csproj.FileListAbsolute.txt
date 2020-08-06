@@ -1,0 +1,15 @@
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\bin\Debug\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csprojAssemblyReference.cache

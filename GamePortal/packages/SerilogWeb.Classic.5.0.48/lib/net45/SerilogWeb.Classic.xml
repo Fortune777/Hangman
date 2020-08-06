@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SerilogWeb.Classic</name>
+    </assembly>
+    <members>
+        <member name="T:SerilogWeb.Classic.ApplicationLifecycleModule">
+            <summary>
+            HTTP module that logs application request and error events.
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.Logger">
+            <summary>
+            The globally-shared logger.
+            
+            </summary>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="M:SerilogWeb.Classic.ApplicationLifecycleModule.Register">
+            <summary>
+            Register the module with the application (called automatically;
+            do not call this explicitly from your code).
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.RequestFilter">
+            <summary>
+            Custom predicate to filter which requests are logged. If the value
+            returned is true then the request will be filtered and not logged.        
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.LogPostedFormData">
+            <summary>
+            When set to Always, form data will be written via an event (using
+            severity from FormDataLoggingLevel).  When set to OnlyOnError, this
+            will only be written if the Response has a 500 status.
+            When set to OnMatch <see cref="P:SerilogWeb.Classic.ApplicationLifecycleModule.ShouldLogPostedFormData"/>
+            is executed to determine if form data is logged.
+            The default is Never. Requires that <see cref="P:SerilogWeb.Classic.ApplicationLifecycleModule.IsEnabled"/> is also
+            true (which it is, by default).
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.FilterPasswordsInFormData">
+            <summary>
+            When set to true (the default), any field containing password will 
+            not have its value logged when DebugLogPostedFormData is enabled
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.FilteredKeywordsInFormData">
+            <summary>
+            When FilterPasswordsInFormData is true, any field containing keywords in this list will 
+            not have its value logged when DebugLogPostedFormData is enabled
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.IsEnabled">
+            <summary>
+            When set to true, request details and errors will be logged. The default
+            is true.
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.RequestLoggingLevel">
+            <summary>
+            The level at which to log HTTP requests. The default is Information.
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.FormDataLoggingLevel">
+            <summary>
+            The level at which to log form values
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.ApplicationLifecycleModule.ShouldLogPostedFormData">
+            <summary>
+            Custom predicate to determine whether form data should be logged. 
+            <see cref="P:SerilogWeb.Classic.ApplicationLifecycleModule.LogPostedFormData"/> must be set to OnMatch for this to execute.
+            </summary>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:SerilogWeb.Classic.ApplicationLifecycleModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Initializes a module and prepares it to handle requests.
+            </summary>
+            <param name="application">An <see cref="T:System.Web.HttpApplication"/> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application </param>
+        </member>
+        <member name="M:SerilogWeb.Classic.ApplicationLifecycleModule.ResetConfiguration">
+            <summary>
+            Allows to reset the module to its default configuration.
+            Useful when testing !
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.ApplicationLifecycleModule.Dispose">
+            <summary>
+            Disposes of the resources (other than memory) used by the module that implements <see cref="T:System.Web.IHttpModule"/>.
+            </summary>
+        </member>
+        <member name="T:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder">
+            <summary>
+            The Builder class to create a new SerilogWebClassicConfiguration
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.Disable">
+            <summary>
+            Disable the logging module completely. Not log events will be written for incoming Http requests
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.Enable">
+            <summary>
+            Enable the logging completely so that log events are written for incoming requests.
+            Is it enabled by default.
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.LogAtLevel(Serilog.Events.LogEventLevel)">
+            <summary>
+            Configure at which level HTTP requests are logged.
+            Default is Information
+            </summary>
+            <param name="level">The level to override the default value</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.UseLogger(Serilog.ILogger)">
+            <summary>
+            Use a user-specified Logger to write events for HTTP requests.
+            </summary>
+            <param name="customLogger">A custom logger to which events will be written</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.UseDefaultLogger">
+            <summary>
+            Use Log.Logger to write events for HTTP requests.
+            This is the default.
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.IgnoreRequestsMatching(System.Func{System.Web.HttpContextBase,System.Boolean})">
+            <summary>
+            Specify criteria for HTTP requests to be excluded from logging
+            </summary>
+            <param name="filter">A predicate that specify which requests will be filtered out</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.EnableFormDataLogging">
+            <summary>
+            Enable logging of the posted Form Data of the HTTP request.
+            When present, FormData will be attached to all logged events when the log level Debug is enabled.
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.EnableFormDataLogging(System.Action{SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder})">
+            <summary>
+            Enables customized configuration of the Form Data logging behavior
+            </summary>
+            <param name="configure">Configuration method invocations</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.DisableFormDataLogging">
+            <summary>
+            Disable logging of the posted Form Data of the HTTP requests.
+            No FormData will be attached to logged events.
+            This is the default behavior.
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="T:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder">
+            <summary>
+            Entry point for fine-grained configuration of FormData logging
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder.AtLevel(Serilog.Events.LogEventLevel)">
+            <summary>
+            Specify from which level FormData should be attached to log events when enabled.
+            No Form Data will be attached when that level is not enabled for the logger.
+            Default is Debug.
+            </summary>
+            <param name="level">The log level at which FormData is written</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder.OnlyOnError">
+            <summary>
+            Specify that FormData should be attached to logged events only in case of error (Status > 500)
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder.OnMatch(System.Func{System.Web.HttpContextBase,System.Boolean})">
+            <summary>
+            Specify that FormData should be attached to logged events only when the provided condistion is true
+            </summary>
+            <param name="matchingFunction">The predicate that defines when FormData should be attached</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder.DisablePasswordFiltering">
+            <summary>
+            Specify that possibly sensitive information should be preserved in the logged FormData
+            Password-filtering is On by default and "offuscates" form data where the key contains "password"
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder.FilterKeywords(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Specify which keywords should be offuscated in the logged FormData
+            The Form Data values will be offuscated when the key contains one of the black-listed words.
+            </summary>
+            <param name="keywordBlackList">The black-listed keywords</param>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder.FormDataLoggingConfigurationBuilder.FilterKeywords">
+            <summary>
+            Specify that values for password fileds should be offuscated in the logged FormData
+            The Form Data values will be offuscated when the key contains "password".
+            </summary>
+            <returns>A configuration object to allow chaining</returns>
+        </member>
+        <member name="T:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.SerilogWebErrorKey">
+            <summary>
+            The key under which we store Exceptions to be logged by SerilogWeb.Classic in HttpContext.Current.Items
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.AddSerilogWebError(System.Web.HttpContextBase,System.Exception)">
+            <summary>
+            Adds an error so that it can be logged by the SerilogWeb module at the end of the request process
+            </summary>
+            <param name="self">the HttpContextBase</param>
+            <param name="exception">the Exception to log</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.AddSerilogWebError(System.Web.HttpContext,System.Exception)">
+            <summary>
+            Adds an error so that it can be logged by the SerilogWeb module at the end of the request process
+            </summary>
+            <param name="self">the HttpContext</param>
+            <param name="exception">the Exception to log</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.GetLastSerilogWebError(System.Web.HttpContextBase)">
+            <summary>
+            Retrieves the last error stored through <see cref="M:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.AddSerilogWebError(System.Web.HttpContextBase,System.Exception)"/> or null
+            </summary>
+            <param name="self">the HttpContextBase</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.GetLastSerilogWebError(System.Web.HttpContext)">
+            <summary>
+            Retrieves the last error stored through <see cref="M:SerilogWeb.Classic.Extensions.SerilogWebRequestExtensions.AddSerilogWebError(System.Web.HttpContext,System.Exception)"/> or null
+            </summary>
+            <param name="self">the HttpContextBase</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.ClaimValueEnricher">
+            <summary>
+            Enrich log events with the named Claim Value.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.ClaimValueEnricher.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.ClaimValueEnricher"/> class.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.ClaimValueEnricher.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.ClaimValueEnricher"/> class.
+            </summary>
+            <param name="claimProperty">The claim property name searched for value to enrich log events.</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.ClaimValueEnricher.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.ClaimValueEnricher"/> class.
+            </summary>
+            <param name="claimProperty">The claim property name searched for value to enrich log events.</param>
+            <param name="logEventProperty">The property name added to enriched log events.</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.ClaimValueEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event with found by name claim's value
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpContextCurrent">
+            <summary>
+            This helper class is used to handle special case introduced by ASP.NET integrated pipeline 
+            when HttpContextCurrent.Request may throw instead of returning null.
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.Enrichers.HttpContextCurrent.Request">
+            <summary>
+            Gets the <see cref="T:System.Web.HttpRequest"/> object for the current HTTP request.
+            </summary>
+            
+            <returns>
+            The current HTTP request.
+            </returns>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher">
+            <summary>
+            Enrich log events with the Client IP Address.
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher.CheckForHttpProxies">
+            <summary>
+            Gets or sets a value indicating whether this enricher will check for possible HTTP proxies via X-FORWARDED-FOR headers.
+            </summary>
+            <value>
+            <c>true</c> if [check for HTTP proxies]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher"/> class with <see cref="P:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher.CheckForHttpProxies"/> set to [true].
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher" /> class.
+            </summary>
+            <param name="checkForHttpProxies">if set to <c>true</c> this Enricher also checks for HTTP proxies and their X-FORWARDED-FOR header.</param>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher.HttpRequestClientHostIPPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestClientHostIPEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestClientHostNameEnricher">
+            <summary>
+            Enrich log events with the Client Host Name.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestClientHostNameEnricher.HttpRequestClientHostNamePropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestClientHostNameEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestIdEnricher">
+            <summary>
+            Enrich log events with a HttpRequestId GUID.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestIdEnricher.HttpRequestIdPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestIdEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event with an id assigned to the currently-executing HTTP request, if any.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestIdEnricher.TryGetCurrentHttpRequestId(System.Guid@)">
+            <summary>
+            Retrieve the id assigned to the currently-executing HTTP request, if any.
+            </summary>
+            <param name="requestId">The request id.</param>
+            <returns><c>true</c> if there is a request in progress; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestNumberEnricher">
+            <summary>
+            Enrich log events with a HttpRequestNumber unique within the current
+            logging session.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestNumberEnricher.HttpRequestNumberPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestNumberEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event with the number assigned to the currently-executing HTTP request, if any.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestRawUrlEnricher">
+            <summary>
+            Enrich log events with the Raw Url of the Request.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestRawUrlEnricher.HttpRequestRawUrlPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestRawUrlEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestTraceIdEnricher">
+            <summary>
+            Enrich log events with a HttpRequestTraceId GUID matching the
+            RequestTraceIdentifier assigned by IIS and used throughout
+            ASP.NET/ETW. IIS ETW tracing must be enabled for this to work.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestTraceIdEnricher.HttpRequestTraceIdPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestTraceIdEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event with an id assigned to the currently-executing HTTP request, if any.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestTypeEnricher">
+            <summary>
+            Enrich log events with the HTTP Request Type.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestTypeEnricher.HttpRequestTypePropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestTypeEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestUrlEnricher">
+            <summary>
+            Enrich log events with the Url of the Request.
+            For the full, raw Url <see cref="T:SerilogWeb.Classic.Enrichers.HttpRequestRawUrlEnricher"/>.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestUrlEnricher.HttpRequestUrlPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestUrlEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestUrlReferrerEnricher">
+            <summary>
+            Enrich log events with the Url of the Referrer.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestUrlReferrerEnricher.HttpRequestUrlReferrerPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestUrlReferrerEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpRequestUserAgentEnricher">
+            <summary>
+            Enrich log events with the Client User Agent.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpRequestUserAgentEnricher.HttpRequestUserAgentPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpRequestUserAgentEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event.
+            </summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.HttpSessionIdEnricher">
+            <summary>
+            Enrich log events with the HttpSessionId property.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.HttpSessionIdEnricher.HttpSessionIdPropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.HttpSessionIdEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event with the current ASP.NET session id, if sessions are enabled.</summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.Enrichers.UserNameEnricher">
+            <summary>
+            Enrich log events with the UserName property when available in the HttpContext.
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.Enrichers.UserNameEnricher.UserNamePropertyName">
+            <summary>
+            The property name added to enriched log events.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.UserNameEnricher.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.UserNameEnricher"/> class.
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.UserNameEnricher.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SerilogWeb.Classic.Enrichers.UserNameEnricher"/> class.
+            </summary>
+            <param name="anonymousUsername">The anonymous username. Leave null if you do not want to use anonymous user names. By default it is (anonymous).</param>
+            <param name="noneUsername">The none username. If there is no username to be found, it will output this username. Leave null (default) to ignore non usernames.</param>
+        </member>
+        <member name="M:SerilogWeb.Classic.Enrichers.UserNameEnricher.Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)">
+            <summary>
+            Enrich the log event with the current ASP.NET user name, if User.Identity.IsAuthenticated is true.</summary>
+            <param name="logEvent">The log event to enrich.</param>
+            <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.LogPostedFormDataOption">
+            <summary>
+            Describes options for logging form request data
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.LogPostedFormDataOption.Never">
+            <summary>
+            Posted form values are never logged
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.LogPostedFormDataOption.Always">
+            <summary>
+            Posted form values are always logged
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.LogPostedFormDataOption.OnlyOnError">
+            <summary>
+            Posted form values are logged if Response.StatusCode >= 500
+            </summary>
+        </member>
+        <member name="F:SerilogWeb.Classic.LogPostedFormDataOption.OnMatch">
+            <summary>
+            Uses the custom predicate defined by <see cref="P:SerilogWeb.Classic.ApplicationLifecycleModule.ShouldLogPostedFormData"/>
+            to determine if posted form values are logged
+            </summary>
+        </member>
+        <member name="T:SerilogWeb.Classic.SerilogWebClassic">
+            <summary>
+            The configuration entry point for SerilogWeb
+            </summary>
+        </member>
+        <member name="P:SerilogWeb.Classic.SerilogWebClassic.Configuration">
+            <summary>
+            The configuration entry point for SerilogWeb.Classic's logging module
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassic.Configure(System.Func{SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder,SerilogWeb.Classic.SerilogWebClassicConfigurationBuilder})">
+            <summary>
+            The configuration entry point for SerilogWeb.Classic's logging module
+            </summary>
+            <param name="configure">A configuration pipeline</param>
+        </member>
+        <member name="T:SerilogWeb.Classic.SerilogWebClassicConfiguration">
+            <summary>
+            The configuration entry point for SerilogWeb.Classic's logging module 
+            </summary>
+        </member>
+        <member name="M:SerilogWeb.Classic.SerilogWebClassicConfiguration.FilterPasswords(System.String,System.String)">
+            <summary>
+            Filters configured keywords from being logged
+            </summary>
+            <param name="key">Key of the pair</param>
+            <param name="value">Value of the pair</param>
+        </member>
+        <member name="T:Serilog.SerilogWebClassicLoggerConfigurationExtensions">
+            <summary>
+            Extends <see cref="T:Serilog.LoggerConfiguration"/> to add enrichers for SerilogWeb.Classic's logging module 
+            </summary>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithClaimValue(Serilog.Configuration.LoggerEnrichmentConfiguration,System.String,System.String)">
+            <summary>
+            Enrich log events with the named Claim Value.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <param name="claimProperty">The claim property name searched for value to enrich log events.</param>
+            <param name="logEventProperty">The property name added to enriched log events. Leave null (default) to use the claim property name.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestClientHostIP(Serilog.Configuration.LoggerEnrichmentConfiguration,System.Boolean)">
+            <summary>
+            Enrich log events with the Client IP Address.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <param name="checkForHttpProxies">if set to <c>true</c> this Enricher also checks for HTTP proxies and their X-FORWARDED-FOR header.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestClientHostName(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the Client Host Name.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestId(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with a HttpRequestId GUID.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestNumber(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with a HttpRequestNumber unique within the current
+            logging session.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestUrl(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the Url of the Request.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestRawUrl(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the Raw Url of the Request.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestTraceId(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with a HttpRequestTraceId GUID matching the
+            RequestTraceIdentifier assigned by IIS and used throughout
+            ASP.NET/ETW. IIS ETW tracing must be enabled for this to work.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestType(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the HTTP Request Type.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestUrlReferrer(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the Url of the Referrer.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpRequestUserAgent(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the Client User Agent.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithHttpSessionId(Serilog.Configuration.LoggerEnrichmentConfiguration)">
+            <summary>
+            Enrich log events with the HttpSessionId property.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+        <member name="M:Serilog.SerilogWebClassicLoggerConfigurationExtensions.WithUserName(Serilog.Configuration.LoggerEnrichmentConfiguration,System.String,System.String)">
+            <summary>
+            Enrich log events with the UserName property when available in the HttpContext.
+            </summary>
+            <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
+            <param name="anonymousUsername">The anonymous username. Leave null if you do not want to use anonymous user names. By default it is (anonymous).</param>
+            <param name="noneUsername">The none username. If there is no username to be found, it will output this username. Leave null (default) to ignore non usernames.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
+    </members>
+</doc>
