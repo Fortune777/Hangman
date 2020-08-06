@@ -1,0 +1,5 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <StringProperty Name="Culture">ru-RU</StringProperty>
+  </GlobalSettings>
+</StyleCopSettings>
