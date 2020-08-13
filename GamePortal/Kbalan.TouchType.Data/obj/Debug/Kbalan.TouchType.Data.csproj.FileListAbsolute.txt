@@ -3,3 +3,28 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\bin\
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb

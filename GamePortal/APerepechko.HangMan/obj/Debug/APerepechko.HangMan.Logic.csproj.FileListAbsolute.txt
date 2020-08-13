@@ -1,6 +1,0 @@
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan\bin\Debug\APerepechko.HangMan.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan\bin\Debug\APerepechko.HangMan.pdb
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan\obj\Debug\APerepechko.HangMan.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan\obj\Debug\APerepechko.HangMan.pdb

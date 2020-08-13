@@ -7,27 +7,21 @@ namespace GamePortal.Web.Api
 {
     public class CustomValidatorFactory : IValidatorFactory
     {
-        private IDependencyResolver _dependencyResolver;
-        private IKernel _kernel;
-
-        public CustomValidatorFactory(IDependencyResolver dependencyResolver)
-        {
-            this._dependencyResolver = dependencyResolver;
-        }
+        private IKernel kernel;
 
         public CustomValidatorFactory(IKernel kernel)
         {
-            this._kernel = kernel;
+            this.kernel = kernel;
         }
 
         public IValidator<T> GetValidator<T>()
         {
-           return _kernel.GetService(typeof(T)) as IValidator<T>;
+            return kernel.TryGet(typeof(T)) as IValidator<T>;
         }
 
         public IValidator GetValidator(Type type)
         {
-            return _kernel.GetService(type) as IValidator;
+            return kernel.TryGet(type) as IValidator;
         }
 
     }

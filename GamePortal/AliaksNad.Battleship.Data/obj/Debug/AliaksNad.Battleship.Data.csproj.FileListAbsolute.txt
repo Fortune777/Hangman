@@ -3,3 +3,25 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Data\
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.dll
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.pdb
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csprojAssemblyReference.cache
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb

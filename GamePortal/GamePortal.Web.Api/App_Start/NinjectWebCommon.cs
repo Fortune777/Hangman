@@ -1,4 +1,3 @@
-//отключаем активаторы ninject, чтобы не включался 
 //[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(GamePortal.Web.Api.App_Start.NinjectWebCommon), "Start")]
 //[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(GamePortal.Web.Api.App_Start.NinjectWebCommon), "Stop")]
 
@@ -15,16 +14,16 @@ namespace GamePortal.Web.Api.App_Start
     using System.Diagnostics;
     using System.IO;
     using System.Reflection;
+    using Ninject.Web.WebApi;
 
-
-    public static class NinjectWebCommon
+    public static class NinjectWebCommon 
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
 
         /// <summary>
         /// Starts the application.
         /// </summary>
-        public static void Start()
+        public static void Start() 
         {
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
@@ -66,7 +65,6 @@ namespace GamePortal.Web.Api.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-
             var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
             var logger = new LoggerConfiguration()

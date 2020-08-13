@@ -1,3 +1,5 @@
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll.config
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.pdb
@@ -35,9 +37,281 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.pdb
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.Fody.CopyLocal.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CopyComplete
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.EF6.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.ValidatorAttribute.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Mono.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ComponentModel.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.Fody.CopyLocal.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.EF6.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.ValidatorAttribute.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Mono.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ComponentModel.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.Fody.CopyLocal.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.EF6.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.ValidatorAttribute.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Mono.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ComponentModel.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.Fody.CopyLocal.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll.config
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Logic.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.EF6.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\DelegateDecompiler.EntityFramework.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.ValidatorAttribute.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Mono.Reflection.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.WebApi.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ComponentModel.Annotations.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\APerepechko.HangMan.Data.dll.config
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\AutoMapper.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Castle.Core.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\CSharpFunctionalExtensions.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\FluentValidation.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\JetBrains.Annotations.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Ninject.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\NullGuard.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Console.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.Debug.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.pdb
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\Serilog.Sinks.File.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\SerilogWeb.Classic.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Net.Http.Formatting.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.ValueTuple.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\bin\Debug\System.Web.Http.WebHost.xml
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csprojAssemblyReference.cache
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CoreCompileInputs.cache
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.Fody.CopyLocal.cache
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.csproj.CopyComplete
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.dll
+C:\GamePortal31\GamePortal\APerepechko.HangMan.Logic\obj\Debug\APerepechko.HangMan.Logic.pdb

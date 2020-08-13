@@ -20,12 +20,12 @@ namespace APerepechko.HangMan.Data
 
             List<WordsDb> words = new List<WordsDb>()
             {
-                new WordsDb() { Word ="Бег",ThemeId = themes },
-                new WordsDb() { Word ="Борьба",ThemeId = themes },
-                new WordsDb() { Word ="Бокс",ThemeId = themes },
-                new WordsDb() { Word ="Гимнастика",ThemeId = themes },
-                new WordsDb() { Word ="Гонка",ThemeId = themes },
-                new WordsDb() { Word ="Гребля",ThemeId = themes }
+                new WordsDb() { Word ="бег",ThemeId = themes },
+                new WordsDb() { Word ="борьба",ThemeId = themes },
+                new WordsDb() { Word ="бокс",ThemeId = themes },
+                new WordsDb() { Word ="гимнастика",ThemeId = themes },
+                new WordsDb() { Word ="гонка",ThemeId = themes },
+                new WordsDb() { Word ="гребля",ThemeId = themes }
             };
 
             db.Themes.Add(themes);
@@ -40,16 +40,16 @@ namespace APerepechko.HangMan.Data
 
             words = new List<WordsDb>()
             {
-                new WordsDb() { Word ="Альпы",ThemeId = themes },
-                new WordsDb() { Word ="Аннапурна",ThemeId = themes },
-                new WordsDb() { Word ="Нангапарбат",ThemeId = themes },
-                new WordsDb() { Word ="Манаслу",ThemeId = themes },
-                new WordsDb() { Word ="Дхаулагири",ThemeId = themes },
-                new WordsDb() { Word ="Чо Ойю",ThemeId = themes },
-                new WordsDb() { Word ="Макалу",ThemeId = themes },
-                new WordsDb() { Word ="Лхоцзе",ThemeId = themes },
-                new WordsDb() { Word ="Канченджанга",ThemeId = themes },
-                new WordsDb() { Word ="Чогори",ThemeId = themes }
+                new WordsDb() { Word ="альпы",ThemeId = themes },
+                new WordsDb() { Word ="аннапурна",ThemeId = themes },
+                new WordsDb() { Word ="нангапарбат",ThemeId = themes },
+                new WordsDb() { Word ="манаслу",ThemeId = themes },
+                new WordsDb() { Word ="дхаулагири",ThemeId = themes },
+                new WordsDb() { Word ="чо ойю",ThemeId = themes },
+                new WordsDb() { Word ="макалу",ThemeId = themes },
+                new WordsDb() { Word ="лхоцзе",ThemeId = themes },
+                new WordsDb() { Word ="канченджанга",ThemeId = themes },
+                new WordsDb() { Word ="чогори",ThemeId = themes }
             };
 
             db.Themes.Add(themes);
@@ -64,16 +64,16 @@ namespace APerepechko.HangMan.Data
 
             words = new List<WordsDb>()
             {
-                new WordsDb() { Word ="Бизон",ThemeId = themes },
-                new WordsDb() { Word ="Дельфин",ThemeId = themes },
-                new WordsDb() { Word ="Орёл",ThemeId = themes },
-                new WordsDb() { Word ="Пони",ThemeId = themes },
-                new WordsDb() { Word ="Омар",ThemeId = themes },
-                new WordsDb() { Word ="Корова",ThemeId = themes },
-                new WordsDb() { Word ="Обезьяна",ThemeId = themes },
-                new WordsDb() { Word ="Утка",ThemeId = themes },
-                new WordsDb() { Word ="Индейка",ThemeId = themes },
-                new WordsDb() { Word ="Лев",ThemeId = themes }
+                new WordsDb() { Word ="бизон",ThemeId = themes },
+                new WordsDb() { Word ="дельфин",ThemeId = themes },
+                new WordsDb() { Word ="орёл",ThemeId = themes },
+                new WordsDb() { Word ="пони",ThemeId = themes },
+                new WordsDb() { Word ="омар",ThemeId = themes },
+                new WordsDb() { Word ="корова",ThemeId = themes },
+                new WordsDb() { Word ="обезьяна",ThemeId = themes },
+                new WordsDb() { Word ="утка",ThemeId = themes },
+                new WordsDb() { Word ="индейка",ThemeId = themes },
+                new WordsDb() { Word ="лев",ThemeId = themes }
             };
 
             db.Themes.Add(themes);
@@ -88,16 +88,16 @@ namespace APerepechko.HangMan.Data
 
             words = new List<WordsDb>()
             {
-                new WordsDb() { Word ="Норвегия",ThemeId = themes },
-                new WordsDb() { Word ="Франция",ThemeId = themes },
-                new WordsDb() { Word ="Австралия",ThemeId = themes },
-                new WordsDb() { Word ="США",ThemeId = themes },
-                new WordsDb() { Word ="Швеция",ThemeId = themes },
-                new WordsDb() { Word ="Япония",ThemeId = themes },
-                new WordsDb() { Word ="Германия",ThemeId = themes },
-                new WordsDb() { Word ="Великобритания",ThemeId = themes },
-                new WordsDb() { Word ="Канада",ThemeId = themes },
-                new WordsDb() { Word ="Швейцария",ThemeId = themes }
+                new WordsDb() { Word ="норвегия",ThemeId = themes },
+                new WordsDb() { Word ="франция",ThemeId = themes },
+                new WordsDb() { Word ="австралия",ThemeId = themes },
+                new WordsDb() { Word ="сша",ThemeId = themes },
+                new WordsDb() { Word ="швеция",ThemeId = themes },
+                new WordsDb() { Word ="япония",ThemeId = themes },
+                new WordsDb() { Word ="германия",ThemeId = themes },
+                new WordsDb() { Word ="великобритания",ThemeId = themes },
+                new WordsDb() { Word ="канада",ThemeId = themes },
+                new WordsDb() { Word ="швейцария",ThemeId = themes }
             };
 
             db.Themes.Add(themes);

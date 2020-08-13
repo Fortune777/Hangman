@@ -1,3 +1,5 @@
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll.config
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.pdb
@@ -52,60 +54,32 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\ros
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe.config
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Elmah.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.Mvc.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.ValidatorAttribute.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\JetBrains.Annotations.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Web.Infrastructure.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NullGuard.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Owin.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.WebApi.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Swashbuckle.Core.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.ComponentModel.Annotations.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.WebPages.Deployment.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.WebPages.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.WebPages.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\WebActivatorEx.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.ValidatorAttribute.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Castle.Core.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\AutoMapper.EF6.dll
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.EntityFramework.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Mono.Reflection.dll
@@ -113,61 +87,820 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\APe
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll.config
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.pdb
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.Mvc.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\JetBrains.Annotations.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\NullGuard.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.pdb
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.WebPages.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.WebPages.Deployment.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.WebPages.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\AutoMapper.pdb
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\FluentValidation.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.pdb
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Castle.Core.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.xml
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
-C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.WebHost.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\System.ComponentModel.Annotations.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.WebHost.xml
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.rsp
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.rsp
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Managed.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.AppContext.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Globalization.Calendars.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Sockets.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XmlDocument.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.rsp
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\FluentValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Swashbuckle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.ComponentModel.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\WebActivatorEx.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\FluentValidation.ValidatorAttribute.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Castle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\AutoMapper.EF6.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Mono.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\FluentValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\AutoMapper.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Castle.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Elmah.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.rsp
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.rsp
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Managed.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.AppContext.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Globalization.Calendars.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Sockets.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XmlDocument.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.rsp
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Elmah.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\FluentValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\FluentValidation.ValidatorAttribute.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Swashbuckle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.ComponentModel.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\WebActivatorEx.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Castle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\AutoMapper.EF6.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Mono.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\FluentValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\AutoMapper.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Castle.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityModel.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityModel.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityModel.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.rsp
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.rsp
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Managed.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.AppContext.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Globalization.Calendars.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Sockets.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XmlDocument.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.rsp
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Elmah.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\FluentValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\FluentValidation.ValidatorAttribute.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityModel.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.WebApi.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Swashbuckle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.ComponentModel.Annotations.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\WebActivatorEx.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\AutoMapper.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Castle.Core.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\AutoMapper.EF6.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.EntityFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Mono.Reflection.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\FluentValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityModel.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityModel.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\AutoMapper.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\AutoMapper.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll.config
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Castle.Core.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.exe.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\csc.rsp
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.exe.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\csi.rsp
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.AppContext.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Console.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Globalization.Calendars.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Http.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Net.Sockets.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.ValueTuple.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XmlDocument.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.exe.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\vbc.rsp
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Elmah.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\EntityFramework.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\FluentValidation.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\FluentValidation.ValidatorAttribute.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityModel.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Owin.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.WebApi.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Swashbuckle.Core.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.ComponentModel.Annotations.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\WebActivatorEx.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\AutoMapper.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Castle.Core.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\AutoMapper.EF6.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.EntityFramework.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Mono.Reflection.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Logic.dll.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\CSharpFunctionalExtensions.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Elmah.Contrib.WebApi.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\EntityFramework.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\EntityFramework.SqlServer.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\FluentValidation.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\FluentValidation.WebApi.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityModel.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityModel.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Namotion.Reflection.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Newtonsoft.Json.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Extensions.NamedScope.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.Common.OwinHost.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Ninject.Web.WebApi.OwinHost.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NJsonSchema.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Debug.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.File.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\SerilogWeb.Classic.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Razor.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Deployment.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Mvc.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.WebHost.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\AutoMapper.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\AutoMapper.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.pdb
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll.config
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Castle.Core.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
+C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb

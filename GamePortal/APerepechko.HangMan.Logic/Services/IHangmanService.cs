@@ -5,21 +5,23 @@ using CSharpFunctionalExtensions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace APerepechko.HangMan.Logic.Services
 {
     public interface IHangmanService : IDisposable
     {
-        Result<IEnumerable<ThemeDto>> GetAllThemes();
-        Result<WordDto> GenerateRandomWord();
+        Task<Result<IEnumerable<ThemeDto>>> GetAllThemesAsync();
+        Task<Result<WordDto>> GenerateRandomWordAsync();
         Result<WordDto> IsLetterExistWord(WordDto model);
-        Result<Maybe<WordDto>> SelectWordsFromTheme(int themeId);
+        Task<Result<Maybe<WordDto>>> SelectWordsFromThemeAsync(int themeId);
 
-        Result<IEnumerable<UserDto>> GetAllUsers();
+        Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync();
 
-        Result<UserStatisticsDto> UpdateStatistics(UserStatisticsDto model);
+        Result<UserStatisticsDto> UpdateStatistics(int id, UserStatisticsDto model);
 
-        Result<Maybe<UserDto>> GetUserById(int id);
+        Task<Result<Maybe<UserDto>>> GetUserByIdAsync(int id);
+        
 
 
 

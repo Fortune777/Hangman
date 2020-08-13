@@ -11,7 +11,7 @@
         </member>
         <member name="F:Ninject.Web.Common.Bootstrapper.kernelInstance">
             <summary>
-            The ninject kernel of the application.
+            The ninject kernel of the application
             </summary>
         </member>
         <member name="P:Ninject.Web.Common.Bootstrapper.Kernel">
@@ -48,7 +48,7 @@
         </member>
         <member name="T:Ninject.Web.Common.INinjectHttpApplicationPlugin">
             <summary>
-            Interface for the plugins of Ninject.Web.Common.
+            Interface for the plugins of Ninject.Web.Common
             </summary>
         </member>
         <member name="M:Ninject.Web.Common.INinjectHttpApplicationPlugin.GetRequestScope(Ninject.Activation.IContext)">

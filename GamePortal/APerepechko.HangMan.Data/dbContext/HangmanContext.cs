@@ -1,22 +1,13 @@
-﻿using APerepechko.HangMan.Data.dbContext;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
 using Serilog;
-using Serilog.Core;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Diagnostics;
 
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
- 
 
 
 namespace APerepechko.HangMan.Data
 {
-    public class HangmanContext : DbContext
+    public class HangmanContext : IdentityDbContext
     {
 
         public HangmanContext() : base("HangmanCon")

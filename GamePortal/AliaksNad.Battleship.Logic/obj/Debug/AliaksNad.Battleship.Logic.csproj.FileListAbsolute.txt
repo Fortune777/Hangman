@@ -3,3 +3,26 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Logic
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csproj.CoreCompileInputs.cache
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.pdb
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.dll
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Logic\bin\Debug\AliaksNad.Battleship.Logic.pdb
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csprojAssemblyReference.cache
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.csproj.CoreCompileInputs.cache
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.dll
+C:\GamePortal31\GamePortal\AliaksNad.Battleship.Logic\obj\Debug\AliaksNad.Battleship.Logic.pdb

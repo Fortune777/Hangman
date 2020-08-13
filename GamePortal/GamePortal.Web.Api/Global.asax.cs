@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Web;
 using System.Web.Routing;
-using System.Web.Http;
-using FluentValidation.Mvc;
 
 namespace GamePortal.Web.Api
 {
@@ -11,11 +9,9 @@ namespace GamePortal.Web.Api
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
-            System.Web.Mvc.AreaRegistration.RegisterAllAreas();
-            GlobalConfiguration.Configure(WebApiConfig.Register);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-
-           
+            //System.Web.Mvc.AreaRegistration.RegisterAllAreas();
+            //System.Web.Http.GlobalConfiguration.Configure(WebApiConfig.Register);
+            //RouteConfig.RegisterRoutes(RouteTable.Routes);            
         }
     }
 }

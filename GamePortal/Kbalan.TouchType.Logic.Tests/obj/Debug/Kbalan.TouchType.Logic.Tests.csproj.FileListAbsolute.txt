@@ -14,3 +14,67 @@ C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic.Tes
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CopyComplete
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.dll
 C:\[Course] ASP NET MVC project\GamePortal\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\[Course] ASP NET MVC project\GamePortal2\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\[Course] ASP NET MVC project\GamePortal3\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.pdb
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csprojAssemblyReference.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CopyComplete
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\[Course] ASP NET MVC project\GamePortal3PAckageEFRefresh\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.Tests.pdb
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Kbalan.TouchType.Logic.pdb
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csprojAssemblyReference.cache
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.csproj.CopyComplete
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.dll
+C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic.Tests\obj\Debug\Kbalan.TouchType.Logic.Tests.pdb

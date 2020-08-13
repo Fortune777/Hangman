@@ -39,13 +39,12 @@ namespace APerepechko.HangMan.Logic.Services
 
 
         //тестирование
-        public Result<IEnumerable<UserDto>> GetAllUsers()
+        public async Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync()
         {
-
             try
             {
                 _logger.Information("Get all Users");
-                return _context.User.ProjectToArray<UserDto>(_mapper.ConfigurationProvider);
+                return await _context.User.AsNoTracking().ProjectToArrayAsync<UserDto>(_mapper.ConfigurationProvider);
             }
             catch (SqlException ex)
             {
@@ -55,24 +54,21 @@ namespace APerepechko.HangMan.Logic.Services
         }
 
 
-
-
-
-        public Result<UserStatisticsDto> UpdateStatistics([NotNull] UserStatisticsDto model)
+        public Result<UserStatisticsDto> UpdateStatistics(int id, [NotNull] UserStatisticsDto model)
         {
             _logger.Information("UpdateStatistics requested by anonymous");
             try
             {
                 var dbModel = _mapper.Map<UserStatisticsDb>(model);
-                _context.UserStatistics.Attach(dbModel);
+               _context.UserStatistics.Attach(dbModel);
                 var entry = _context.Entry(dbModel);
                 // global state
-                entry.State = System.Data.Entity.EntityState.Modified;
+                entry.State = EntityState.Modified;
 
-                //entry.Property(x => x.Name).IsModified = true;
+                //entry.Property(x => x.Name).IsModified = true; 
                 //entry.Property(x => x.Price).IsModified = true;
                 _context.SaveChanges(); //UPDATE
-                return Result.Success((model));
+                return Result.Success(model);
             }
             catch (DbUpdateException ex)
             {
@@ -81,18 +77,13 @@ namespace APerepechko.HangMan.Logic.Services
             }
         }
 
-        public Result<IEnumerable<ThemeDto>> GetAllThemes()
+        public async Task<Result<IEnumerable<ThemeDto>>> GetAllThemesAsync()
         {
             _logger.Information("Get all Themes requested by anonymous");
             try
             {
-                var models = _context.Themes.AsNoTracking().ToArray();
+                var models = await _context.Themes.AsNoTracking().ToArrayAsync();
                 return Result.Success(_mapper.Map<IEnumerable<ThemeDto>>(models));
-
-
-                //ProjectToArray<ThemeDto>(_mapper.ConfigurationProvider);
-                //var models = _context.Pizzas.AsNoTracking().Include(x => x.Ingredients).ToArray();
-                //return Result.Success(_mapper.Map<IEnumerable<PizzaDto>>(models));
             }
             catch (SqlException ex)
             {
@@ -101,7 +92,7 @@ namespace APerepechko.HangMan.Logic.Services
             }
         }
 
-        public Result<Maybe<UserDto>> GetUserById(int id)
+        public async Task<Result<Maybe<UserDto>>> GetUserByIdAsync(int id)
         {
 
            //неправильно работающий метод
@@ -110,9 +101,9 @@ namespace APerepechko.HangMan.Logic.Services
             _logger.Information("Get User By Id");
             try
             {
-                Maybe<UserDto> updateUserStatistics = _context.UserStatistics
+                Maybe<UserDto> updateUserStatistics = await _context.UserStatistics
                     .Where(x => x.StatisticsId == id)
-                    .ProjectToSingleOrDefault<UserDto>(_mapper.ConfigurationProvider);
+                    .ProjectToSingleOrDefaultAsync<UserDto>(_mapper.ConfigurationProvider);
 
                 _context.SaveChanges();
                 return Result.Success(updateUserStatistics);
@@ -124,29 +115,28 @@ namespace APerepechko.HangMan.Logic.Services
             }
         }
 
-        public Result<Maybe<WordDto>> SelectWordsFromTheme(int themeId)
+        public async Task<Result<Maybe<WordDto>>> SelectWordsFromThemeAsync(int themeId)
         {
             _logger.Information("Select Words From Theme");
             try
             {
-                var idTheme = _context.Themes.FirstOrDefault(x => x.ThemeId == themeId).ThemeId;
-                var allWords = _context.Words
+                var getIdTheme = await _context.Themes.AsNoTracking().FirstOrDefaultAsync(x => x.ThemeId == themeId);
+                var allWords = await _context.Words
                     .AsNoTracking()
-                    .Where(x => x.ThemeId.ThemeId == idTheme)
-                    .Select(x => new {
-                        WordId = x.WordId,
+                    .Where(x => x.ThemeId.ThemeId == getIdTheme.ThemeId)
+                    .Select(x => new WordDto() {
+                        WordId = x.WordId.ToString(),
                         Word = x.Word,
                         Theme = x.ThemeId.Theme,
-                        RemainingLetters = string.Empty,
+                        RemainingLetters = x.Word,
                         SendChar = string.Empty,
                         IsWin = false,
                         HasChar = false
-                    }).ToArray();
+                    }).ToArrayAsync();
 
                 var rndNumb = new Random().Next(0, allWords.Count());
-                Maybe<WordDto> result = _mapper.Map<WordDto>(allWords[rndNumb]);
-                    //.<WordDto>(_mapper.ConfigurationProvider);
-                
+                Maybe<WordDto> result =allWords[rndNumb];
+
                 return Result.Success(result);
             }
             catch (SqlException ex)
@@ -177,7 +167,7 @@ namespace APerepechko.HangMan.Logic.Services
             return themeDto;
         }
 
-        public Result<WordDto> IsLetterExistWord(WordDto model)
+        public  Result<WordDto> IsLetterExistWord(WordDto model)
         {
             _logger.Information("IsLetterExistWord");
             model.IsWin = false;
@@ -199,18 +189,25 @@ namespace APerepechko.HangMan.Logic.Services
             return Result.Success(model);
         }
 
-
-
-        public Result<WordDto> GenerateRandomWord()
+        public async Task<Result<WordDto>> GenerateRandomWordAsync()
         {
             //случайное слово 
             _logger.Information("GenerateRandomWord");
             try
             {
-                var maxIdWord = _context.Words.AsNoTracking().Max(x => x.WordId);
+                var maxIdWord = await _context.Words.AsNoTracking().MaxAsync(x => x.WordId);
                 int rdNumb = new Random().Next(1, maxIdWord);
-                var result = _context.Words.Where(x => x.WordId == maxIdWord)
-                    .ProjectToSingleOrDefault<WordDto>(_mapper.ConfigurationProvider);
+                var result = await _context.Words.AsNoTracking().Where(x => x.WordId == maxIdWord)
+                    .Select(x => new WordDto()
+                    {
+                        WordId = x.WordId.ToString(),
+                        Word = x.Word,
+                        Theme = x.ThemeId.Theme,
+                        RemainingLetters = x.Word,
+                        SendChar = string.Empty,
+                        IsWin = false,
+                        HasChar = false
+                    }).FirstOrDefaultAsync();
 
                 return Result.Success(result);
             }
