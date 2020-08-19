@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using APerepechko.HangMan.Logic.Model;
 using APerepechko.HangMan.Logic.Services;
-using APerepechko.HangMan.Model.Logic;
-//using FluentValidation;
-//using FluentValidation.WebApi;
-//using JetBrains.Annotations;
-//using NullGuard;
+
  
     
 namespace GamePortal.Web.Api.Controllers.Hangman
@@ -38,7 +34,7 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             return result.Value.HasNoValue ? (IHttpActionResult)NotFound() : Ok(result.Value.Value);
         }
 
-        [HttpGet]
+        [HttpGet, Authorize]
         [Route("GetAllThemesAsync")]
         public async Task<IHttpActionResult> GetAllThemesAsync()
         {

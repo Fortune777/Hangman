@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -103,6 +104,13 @@ namespace APerepechko.HangMan.Data
             db.Themes.Add(themes);
             db.Words.AddRange(words);
             #endregion
+
+
+            #region добавление роли user
+            db.Roles.Add(new IdentityRole("user"));
+            #endregion
+
+            //db.SaveChanges();
 
             base.Seed(db);
         }

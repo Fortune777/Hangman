@@ -1,25 +1,19 @@
 ﻿using APerepechko.HangMan.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using APerepechko.HangMan.Logic.Model;
-using System.Data.Entity;
-using System.Runtime.InteropServices;
-using APerepechko.HangMan.Model.Logic;
 using AutoMapper;
-using FluentValidation;
 using CSharpFunctionalExtensions;
-using System.Data.Entity.Infrastructure;
-using System.Diagnostics;
+using FluentValidation;
 using JetBrains.Annotations;
 using NullGuard;
-using System.Data.SqlClient;
-using System.Linq.Expressions;
 using Serilog;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
 using System.Data.Entity.Core;
-using Ninject.Modules;
+using System.Data.Entity.Infrastructure;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace APerepechko.HangMan.Logic.Services
 {
@@ -38,44 +32,7 @@ namespace APerepechko.HangMan.Logic.Services
         }
 
 
-        //тестирование
-        public async Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync()
-        {
-            try
-            {
-                _logger.Information("Get all Users");
-                return await _context.User.AsNoTracking().ProjectToArrayAsync<UserDto>(_mapper.ConfigurationProvider);
-            }
-            catch (SqlException ex)
-            {
-                _logger.Error("Connection to db is failed", ex);
-                return Result.Failure<IEnumerable<UserDto>>(ex.Message);
-            }
-        }
-
-
-        public Result<UserStatisticsDto> UpdateStatistics(int id, [NotNull] UserStatisticsDto model)
-        {
-            _logger.Information("UpdateStatistics requested by anonymous");
-            try
-            {
-                var dbModel = _mapper.Map<UserStatisticsDb>(model);
-               _context.UserStatistics.Attach(dbModel);
-                var entry = _context.Entry(dbModel);
-                // global state
-                entry.State = EntityState.Modified;
-
-                //entry.Property(x => x.Name).IsModified = true; 
-                //entry.Property(x => x.Price).IsModified = true;
-                _context.SaveChanges(); //UPDATE
-                return Result.Success(model);
-            }
-            catch (DbUpdateException ex)
-            {
-                _logger.Error("Connection to db is failed", ex);
-                return Result.Failure<UserStatisticsDto>(ex.Message);
-            }
-        }
+      
 
         public async Task<Result<IEnumerable<ThemeDto>>> GetAllThemesAsync()
         {
@@ -96,7 +53,8 @@ namespace APerepechko.HangMan.Logic.Services
         {
 
            //неправильно работающий метод
-           //, причем тут userstatics в методе userdto?
+           //переписать метод, не забыть
+
 
             _logger.Information("Get User By Id");
             try
@@ -145,7 +103,44 @@ namespace APerepechko.HangMan.Logic.Services
                 return Result.Failure<Maybe<WordDto>>(ex.Message);
             }
         }
+        //тестирование
+        public async Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync()
+        {
+            try
+            {
+                _logger.Information("Get all Users");
+                return await _context.User.AsNoTracking().ProjectToArrayAsync<UserDto>(_mapper.ConfigurationProvider);
+            }
+            catch (SqlException ex)
+            {
+                _logger.Error("Connection to db is failed", ex);
+                return Result.Failure<IEnumerable<UserDto>>(ex.Message);
+            }
+        }
 
+
+        public Result<UserStatisticsDto> UpdateStatistics(int id, [NotNull] UserStatisticsDto model)
+        {
+            _logger.Information("UpdateStatistics requested by anonymous");
+            try
+            {
+                var dbModel = _mapper.Map<UserStatisticsDb>(model);
+                _context.UserStatistics.Attach(dbModel);
+                var entry = _context.Entry(dbModel);
+                // global state
+                entry.State = EntityState.Modified;
+
+                //entry.Property(x => x.Name).IsModified = true; 
+                //entry.Property(x => x.Price).IsModified = true;
+                _context.SaveChanges(); //UPDATE
+                return Result.Success(model);
+            }
+            catch (DbUpdateException ex)
+            {
+                _logger.Error("Connection to db is failed", ex);
+                return Result.Failure<UserStatisticsDto>(ex.Message);
+            }
+        }
 
         public ThemeDto AddTheme(ThemeDto themeDto)
         {
@@ -195,9 +190,10 @@ namespace APerepechko.HangMan.Logic.Services
             _logger.Information("GenerateRandomWord");
             try
             {
-                var maxIdWord = await _context.Words.AsNoTracking().MaxAsync(x => x.WordId);
-                int rdNumb = new Random().Next(1, maxIdWord);
-                var result = await _context.Words.AsNoTracking().Where(x => x.WordId == maxIdWord)
+                var maxId = await _context.Words.AsNoTracking().MaxAsync(x => x.WordId);
+                var minId = await _context.Words.AsNoTracking().MinAsync(x => x.WordId);
+                int rdNumb = new Random().Next(minId, maxId);
+                var result = _context.Words.AsNoTracking().Where(x => x.WordId == rdNumb)
                     .Select(x => new WordDto()
                     {
                         WordId = x.WordId.ToString(),
@@ -207,7 +203,7 @@ namespace APerepechko.HangMan.Logic.Services
                         SendChar = string.Empty,
                         IsWin = false,
                         HasChar = false
-                    }).FirstOrDefaultAsync();
+                    }).FirstOrDefault() ;
 
                 return Result.Success(result);
             }

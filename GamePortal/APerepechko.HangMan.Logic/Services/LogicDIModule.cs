@@ -2,7 +2,6 @@
 using APerepechko.HangMan.Data.Profiles;
 using APerepechko.HangMan.Logic.Model;
 using APerepechko.HangMan.Logic.Validators;
-using APerepechko.HangMan.Model.Logic;
 using AutoMapper;
 using FluentValidation;
 using Ninject.Modules;
@@ -18,6 +17,7 @@ using Serilog;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using APerepechko.HangMan.Logic.Identity;
+using APerepechko.HangMan.Logic.Services.Contracts;
 
 namespace APerepechko.HangMan.Logic.Services
 {
@@ -41,17 +41,21 @@ namespace APerepechko.HangMan.Logic.Services
             this.Bind<IValidator<WordDto>>().To<WordDtoValidators>(); // для использования другого rule set-а PostValidator
             this.Bind<IValidator<UserStatisticsDto>>().To<UserStatisticsDtoValidators>(); // для использования другого rule set-а PostValidator
             this.Bind<IValidator<ThemeDto>>().To<ThemeDtoValidators>(); // для использования другого rule set-а PostValidator
+            this.Bind<IValidator<UserDto>>().To<UserDtoValidators>(); // для использования другого rule set-а PostValidator
+            this.Bind<IValidator<NewUserDto>>().To<NewUserDtoValidators>(); // для использования другого rule set-а PostValidator
 
 
             //registr asp.net Identity
 
-            this.Bind<IUserStore<IdentityUser>>().To<UserStore<IdentityUser>>();
-            this.Bind<UserManager<IdentityUser>>().ToMethod(ctx=>
+            this.Bind<IUserStore<IdentityUser>>().ToMethod(ctx =>
+                new UserStore<IdentityUser>(ctx.Kernel.Get<HangmanContext>()));
+            
+            this.Bind<UserManager<IdentityUser>>().ToMethod(ctx =>
             {
                 var manager = new UserManager<IdentityUser>(ctx.Kernel.Get<IUserStore<IdentityUser>>());
                 manager.EmailService = new HangmanEmailService();
-                manager.UserValidator = new UserValidator<IdentityUser>(manager) 
-                { 
+                manager.UserValidator = new UserValidator<IdentityUser>(manager)
+                {
                     AllowOnlyAlphanumericUserNames = false,
                     RequireUniqueEmail = true
 

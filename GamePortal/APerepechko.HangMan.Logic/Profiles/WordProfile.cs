@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using APerepechko.HangMan.Logic.Model;
 using AutoMapper;
-
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace APerepechko.HangMan.Data.Profiles
 {
@@ -30,6 +30,14 @@ namespace APerepechko.HangMan.Data.Profiles
         public UserStatisticsProfile()
         {
             CreateMap<UserStatisticsDb, UserStatisticsDto>().ReverseMap();
+        }
+    }
+
+    public class UserProfile : Profile
+    {
+        public UserProfile()
+        {
+            CreateMap<IdentityUser, UserDto>();
         }
     }
 }

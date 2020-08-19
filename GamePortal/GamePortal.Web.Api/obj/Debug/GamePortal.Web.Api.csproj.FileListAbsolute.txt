@@ -904,6 +904,7 @@ C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.cspro
 C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
 C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
 C:\GamePortal31\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Sertificate\idsrv3test.pfx
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll.config
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\GamePortal.Web.Api.pdb
@@ -969,7 +970,10 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\IdentityModel.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.dll
@@ -982,6 +986,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Google.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.dll
@@ -999,6 +1004,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\NullGuard.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Owin.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Serilog.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.dll
@@ -1024,7 +1030,6 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Web.Webpages.Razor.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\WebActivatorEx.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\AutoMapper.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll
-C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Castle.Core.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\AutoMapper.EF6.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\DelegateDecompiler.EntityFramework.dll
@@ -1045,7 +1050,12 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.pdb
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\IdentityServer3.AccessTokenValidation.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.JsonWebTokens.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Logging.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
@@ -1058,6 +1068,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Google.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.Jwt.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.OAuth.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.StaticFiles.xml
@@ -1074,6 +1085,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.AspNet.Owin.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.Core.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\NSwag.Generation.WebApi.xml
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\NullGuard.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Serilog.pdb
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Serilog.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Serilog.Sinks.Console.xml
@@ -1099,10 +1111,10 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\AutoMapper.pdb
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\AutoMapper.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.pdb
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\APerepechko.HangMan.Data.dll.config
-C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Castle.Core.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csprojAssemblyReference.cache
 C:\hangman\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CoreCompileInputs.cache
+C:\hangman\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.Fody.CopyLocal.cache
 C:\hangman\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.csproj.CopyComplete
 C:\hangman\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\obj\Debug\GamePortal.Web.Api.pdb

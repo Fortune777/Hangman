@@ -1,5 +1,4 @@
 ﻿using APerepechko.HangMan.Logic.Model;
-using APerepechko.HangMan.Model.Logic;
 using Castle.DynamicProxy;
 using CSharpFunctionalExtensions;
 using FluentValidation;
@@ -23,9 +22,7 @@ namespace APerepechko.HangMan.Logic.Aspects
         {
             this._kernel = kernel;
         }
-        
-        
-       
+         
         public void Intercept(IInvocation invocation)
         {
             if(invocation.Arguments.Length == 0) { invocation.Proceed(); return; }
@@ -71,6 +68,20 @@ namespace APerepechko.HangMan.Logic.Aspects
             }
 
 
+            if (invocation.Arguments[0] is NewUserDto argNewUser)
+            {
+                if (argNewUser == null) { invocation.Proceed(); return; }
+
+                var validator = _kernel.Get<IValidator<NewUserDto>>();
+                var validationResult = validator.Validate(instance: argNewUser, ruleSet: "PreValidation"); // contract
+                if (!validationResult.IsValid)
+                {
+                    invocation.ReturnValue = Result.Failure<UserDto>(validationResult.Errors.Select(x => x.ErrorMessage).First());
+                    return;
+                }
+            }
+
+
             if (invocation.Arguments[0] is WordDto argWord)
             {
                 if (argWord == null) { invocation.Proceed(); return; }
@@ -83,7 +94,7 @@ namespace APerepechko.HangMan.Logic.Aspects
                     return;
                 }
             }
-
+             
             invocation.Proceed();
         }
     }

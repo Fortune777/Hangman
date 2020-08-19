@@ -18,7 +18,7 @@ namespace APerepechko.HangMan.Data
         public HangmanContext(ILogger logger) : base("HangmanCon")
         {
             Database.SetInitializer(new DbContextInitializer());
-            Database.Log = msg => logger.Debug(msg);
+            //Database.Log = msg => logger.Debug(msg);
         }
 
 

@@ -1,22 +1,33 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.Owin;
-using Owin;
-using System.Web.Http;
+﻿using APerepechko.HangMan.Logic.Services;
 using Elmah.Contrib.WebApi;
-using System.Web.Http.ExceptionHandling;
 using FluentValidation.WebApi;
+using GamePortal.Web.Api.Middleware;
+using IdentityServer3.AccessTokenValidation;
+using IdentityServer3.AspNetIdentity;
+using IdentityServer3.Core.Configuration;
+using IdentityServer3.Core.Models;
+using IdentityServer3.Core.Services.InMemory;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.SignalR;
+using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.Google;
 using Ninject;
-using APerepechko.HangMan.Logic.Services;
-using Serilog;
-using System.IO;
-using System.Reflection;
-using NSwag.AspNet.Owin;
 using Ninject.Web.Common.OwinHost;
 using Ninject.Web.WebApi.OwinHost;
-using System.Diagnostics;
-using System.Web.Http.Owin;
-
+using NSwag.AspNet.Owin;
+using Owin;
+using Serilog;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Security.Claims;
+using System.Security.Cryptography.X509Certificates;
+using System.Web.Http;
+using System.Web.Http.ExceptionHandling;
 
 [assembly: OwinStartup(typeof(GamePortal.Web.Api.Startup))]
 
@@ -26,55 +37,156 @@ namespace GamePortal.Web.Api
     {
         public void Configuration(IAppBuilder app)
         {
-			// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=316888
+            // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=316888
 
 
-			var config = new HttpConfiguration();
+            var config = new HttpConfiguration();
 
-			// Web API routes
-			config.MapHttpAttributeRoutes();
+            // Web API routes
+            config.MapHttpAttributeRoutes();
 
-			config.Routes.MapHttpRoute(
-				name: "DefaultApi",
-				routeTemplate: "api/{controller}/{id}",
-				defaults: new { id = RouteParameter.Optional }
-			);
+            config.Routes.MapHttpRoute(
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
 
-			config.Services.Replace(typeof(IExceptionLogger), new ElmahExceptionLogger());
+            config.Services.Replace(typeof(IExceptionLogger), new ElmahExceptionLogger());
 
-			//если ошибка loop newtonsoft -помогает узнать какой ответ пришел и какую переменную смотреть
-			//config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            //если ошибка loop newtonsoft -помогает узнать какой ответ пришел и какую переменную смотреть
+            //config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 
-			var kernel = new StandardKernel();
-			var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var kernel = new StandardKernel();
+            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-			var logger = new LoggerConfiguration()
-				.WriteTo.Debug()
-				.WriteTo.Console()
-				.WriteTo.File(Path.Combine(path, "log.txt"))
-				.Enrich.WithHttpRequestType()
-				.Enrich.WithWebApiControllerName()
-				.Enrich.WithWebApiActionName() // закончили настройку
-				.MinimumLevel.Verbose()
-				.CreateLogger(); // создать логер
+            var logger = new LoggerConfiguration()
+                .WriteTo.Debug()
+                .WriteTo.Console()
+                .WriteTo.File(Path.Combine(path, "log.txt"))
+                .Enrich.WithHttpRequestType()
+                .Enrich.WithWebApiControllerName()
+                .Enrich.WithWebApiActionName() // закончили настройку
+                .MinimumLevel.Verbose()
+                .CreateLogger(); // создать логер
+
+            kernel.Bind<ILogger>().ToConstant(logger);
+            kernel.Load(new LogicDIModule());
+
+            FluentValidationModelValidatorProvider.Configure(config, opt =>
+            {
+                opt.ValidatorFactory = new CustomValidatorFactory(kernel);
+            });
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie
+            });
+
+            app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
+
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions
+            {
+                ClientId = "740546789549-8v4dr8v2jibtj963r7po5icmkr6up4ja.apps.googleusercontent.com",
+                ClientSecret = "Ysrz4Odz15usgJVKPzX5BRTR",
+                AuthenticationType = "MyGoogle"
+            });
+
+            app.Map("/login/google", b => b.Use<GoogleAuthMiddleware>());
+
+            IdentityServerServiceFactory factory = new IdentityServerServiceFactory();
+            var client = new Client()
+            {
+                ClientId = "HangmanClient",
+                ClientSecrets = new List<Secret>() { new Secret("secret".Sha256())  },
+                AllowAccessToAllScopes = true,
+                ClientName = "Hangman Client",
+                Flow = Flows.AuthorizationCode,
+                RedirectUris = new List<string>() { "https://localhost:5555" }
+            };
+
+            var user = new InMemoryUser()
+            {
+                Username = "qwe",
+                Password = "qwe1423",
+                Subject = "123-123-123",
+                Claims = new[] { new Claim("api-version", "1") }
+            };
 
 
 
+            factory.UseInMemoryScopes(StandardScopes.All)
+                .UseInMemoryClients(new[] { client });
+               // .UseInMemoryUsers(new List<InMemoryUser>() { user });
 
-			kernel.Bind<ILogger>().ToConstant(logger);
-			kernel.Load(new LogicDIModule());
-
-			FluentValidationModelValidatorProvider.Configure(config, opt =>
-			{
-				opt.ValidatorFactory = new CustomValidatorFactory(kernel);
-			});
+            factory.UserService = new Registration<IdentityServer3.Core.Services.IUserService>(new AspNetIdentityUserService<IdentityUser, string>(kernel.Get<UserManager<IdentityUser>>()));
 
 
 
-			app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3()
-				.UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
+            app.UseIdentityServer(new IdentityServerOptions
+            {
+                EnableWelcomePage = true,
+               
+#if DEBUG
+                RequireSsl = false,
+#endif
+                LoggingOptions = new LoggingOptions
+                {
+                    EnableHttpLogging = true,
+                    EnableKatanaLogging = true,
+                    EnableWebApiDiagnostics = true,
+                    WebApiDiagnosticsIsVerbose = true
+                },
+                SiteName = "Hangman",
+                Factory = factory,
+                SigningCertificate = LoadCertificate()
+            })
+                .UseIdentityServerBearerTokenAuthentication(new  IdentityServerBearerTokenAuthenticationOptions
+                {
+                    Authority = "https://localhost:44313",
+                    ClientId = "HangmanClient",
+                    ClientSecret = "secret",
+                    RequireHttps = false,
+                    ValidationMode = ValidationMode.Both,
+                    IssuerName = "https://localhost:44313",
+                    SigningCertificate = LoadCertificate(),
+                    ValidAudiences = new[] { "https://localhost:44313/resources" }
+                });
+
+            
+ 
+             
+
+            //  AddHangmanSecurity(app, kernel);
+            //app.MapSignalR(//path:"/signalr"  , по умолчанию заданный путь
+            //    configuration:  new HubConfiguration { 
+            //    EnableDetailedErrors = true,
+            //    EnableJSONP = true
+            //});
 
 
-		}
-	}
+            app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3()
+                .UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
+        }
+         
+
+        private static X509Certificate2 LoadCertificate()
+        {
+            return 
+                new X509Certificate2(
+                fileName: Path.Combine( AppDomain.CurrentDomain.BaseDirectory, @"bin\Sertificate\idsrv3test.pfx")
+                ,password: "1423");
+        }
+
+
+        public static IAppBuilder AddHangmanSecurity(IAppBuilder app, IKernel kernel)
+        {
+
+
+           
+
+            return app;
+        }
+
+
+    }
 }
