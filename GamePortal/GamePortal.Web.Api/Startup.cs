@@ -84,11 +84,10 @@ namespace GamePortal.Web.Api
 
             var provide = new CorsPolicyProvider();
             provide.PolicyResolver = ctx => Task.FromResult(new System.Web.Cors.CorsPolicy { AllowAnyHeader = true, AllowAnyMethod = true, AllowAnyOrigin = true });
-
             app.UseCors(new Microsoft.Owin.Cors.CorsOptions { PolicyProvider = provide });
 
+            
             app.UseStaticFiles();
-
             app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3(settings => settings.ServerUrl = "http://demovm:50698");
 
 
@@ -112,12 +111,6 @@ namespace GamePortal.Web.Api
 
             LoadIdentityServer(app,kernel);
             
-         
-
-
-         
-
-
              
             //  AddHangmanSecurity(app, kernel);
             //app.MapSignalR(//path:"/signalr"  , по умолчанию заданный путь
@@ -136,7 +129,6 @@ namespace GamePortal.Web.Api
 
         public static void LoadIdentityServer(IAppBuilder app, IKernel kernel)
         {
-
             IdentityServerServiceFactory factory = new IdentityServerServiceFactory();
             var client = new Client()
             {
@@ -192,7 +184,7 @@ namespace GamePortal.Web.Api
                 ClientId = "HangmanClient",
                 ClientSecret = "secret",
                 RequireHttps = false,
-                ValidationMode = ValidationMode.Local,
+                ValidationMode = ValidationMode.Both,
                 IssuerName = "https://localhost:44307",
                 SigningCertificate = LoadCertificate(),
                 ValidAudiences = new[] { "https://localhost:44307/resources" }
@@ -211,10 +203,6 @@ namespace GamePortal.Web.Api
 
         public static IAppBuilder AddHangmanSecurity(IAppBuilder app, IKernel kernel)
         {
-
-
-
-
             return app;
         }
 

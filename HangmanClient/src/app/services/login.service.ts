@@ -11,15 +11,15 @@ import { Router } from '@angular/router';
 export const oauthConfig: AuthConfig = {
   issuer: 'http://localhost:50698',
   redirectUri: window.location.origin + 'index.html',
-  clientId: '',
+  clientId: 'HangmanClient',
   responseType: 'code',
   dummyClientSecret: 'secret',
   scope: 'openid profile email api',
   requireHttps: false,
   skipIssuerCheck: true,
-  skipSubjectCheck: true,
-  strictDiscoveryDocumentValidation: false,
-  oidc: false,
+  showDebugInformation: true,
+  disablePKCE: true,
+  postLogoutRedirectUri: window.location.origin + '/login',
 };
 
 @Injectable({ providedIn: 'root' })
