@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand">Игра Виселица</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+    aria-controls="navbarCollapse"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active"
+          >Home</a
+        >
+      </li>
+
+      <li class="nav-item" *ngIf="isLogged">
+        <a class="nav-link" routerLink="/game" routerLinkActive="active"
+          >Game</a
+        >
+      </li>
+
+      <li class="nav-item" *ngIf="isLogged">
+        <a class="nav-link" routerLink="/profile" routerLinkActive="active"
+          >Profile</a
+        >
+      </li>
+
+      <li class="nav-item" *ngIf="!isLogged">
+        <a class="nav-link" routerLink="/login" routerLinkActive="active"
+          >Login</a
+        >
+      </li>
+
+      <li class="nav-item" *ngIf="this.loginSrv.LoggedOn">
+        <a class="nav-link" (click)="this.loginSrv.logout()">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>

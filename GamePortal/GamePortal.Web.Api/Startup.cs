@@ -197,8 +197,6 @@ namespace GamePortal.Web.Api
                 SigningCertificate = LoadCertificate(),
                 ValidAudiences = new[] { "https://localhost:44307/resources" }
             });
-             
-
         }
 
 

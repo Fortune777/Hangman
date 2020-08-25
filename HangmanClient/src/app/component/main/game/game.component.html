@@ -1,0 +1,18 @@
+<div class="container">
+  <label>Выберете тему</label> <br />
+
+  <select
+    name="selectedQuantity"
+    id="aantal"
+    class="form-control"
+    [(ngModel)]="selId"
+  >
+    <option *ngFor="let option of Alltheme" [value]="option.ThemeId">{{
+      option.Theme
+    }}</option>
+  </select>
+  <p>Selected Quantity : {{ selId }} ------> {{ wordResult }}</p>
+
+  <a [routerLink]="[selId]" class="link">Go somewhere</a>
+  <button (click)="btnStartGame()" type="button">Начать игру</button>
+</div>

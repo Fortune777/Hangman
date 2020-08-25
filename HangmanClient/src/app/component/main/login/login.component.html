@@ -1,0 +1,51 @@
+<form class="form-signin" [formGroup]="loginGroup" (ngSubmit)="this.login()">
+  <div class="text-center mb-4">
+    <img
+      class="mb-4"
+      src="/docs/4.5/assets/brand/bootstrap-solid.svg"
+      alt=""
+      width="72"
+      height="72"
+    />
+    <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+  </div>
+
+  <div class="form-label-group">
+    <input
+      type="email"
+      id="inputEmail"
+      class="form-control"
+      placeholder="Email address"
+      autofocus=""
+      formControlName="email"
+    />
+    <label for="inputEmail">Email address</label>
+  </div>
+
+  <div class="form-label-group">
+    <input
+      type="password"
+      id="inputPassword"
+      class="form-control"
+      placeholder="Password"
+      formControlName="password"
+    />
+    <label for="inputPassword">Password</label>
+  </div>
+
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me" formControlName="remember" />
+      Remember me
+    </label>
+  </div>
+
+  <button class="btn btn-lg btn-primary btn-block" type="submit">
+    Sign in
+  </button>
+
+  <button class="btn btn-lg btn-secondary btn-block" (click)="this.login()">
+    Sign in with Identity Server
+  </button>
+  <p class="mt-5 mb-3 text-muted text-center">© 2017-2020</p>
+</form>
