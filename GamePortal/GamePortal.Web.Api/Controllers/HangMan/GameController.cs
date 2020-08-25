@@ -34,13 +34,24 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             return result.Value.HasNoValue ? (IHttpActionResult)NotFound() : Ok(result.Value.Value);
         }
 
-        [HttpGet, Authorize]
+   
+       // [HttpGet, Authorize]
+        [HttpGet, HostAuthentication("Bearer")]
         [Route("GetAllThemesAsync")]
         public async Task<IHttpActionResult> GetAllThemesAsync()
         {
             var result = await _hangmanService.GetAllThemesAsync();
             return result.IsSuccess ? Ok(result.Value) : (IHttpActionResult)StatusCode(HttpStatusCode.InternalServerError);
         }
+
+        [HttpGet, Authorize]
+        [Route("GetAllThemesAsyncAuthorize")]
+        public async Task<IHttpActionResult> GetAllThemesAsyncAuthorize()
+        {
+            var result = await _hangmanService.GetAllThemesAsync();
+            return result.IsSuccess ? Ok(result.Value) : (IHttpActionResult)StatusCode(HttpStatusCode.InternalServerError);
+        }
+
 
         [HttpGet]
         [Route("GenerateRandomWordAsync")]

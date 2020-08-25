@@ -981,6 +981,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocol.Ex
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Cors.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -1018,6 +1019,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.IdentityModel.Tokens.Jwt.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Net.Http.Formatting.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Text.Encodings.Web.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.ValueTuple.dll
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Web.Cors.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Web.Helpers.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.dll
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\System.Web.Http.Owin.dll
@@ -1064,6 +1066,7 @@ C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.x
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.IdentityModel.Tokens.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.xml
+C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Cors.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.FileSystems.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\hangman\GamePortal\GamePortal.Web.Api\bin\Microsoft.Owin.Security.xml

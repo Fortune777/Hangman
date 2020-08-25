@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.SignalR;
 using Microsoft.Owin;
+using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Ninject;
@@ -26,6 +27,8 @@ using System.Linq;
 using System.Reflection;
 using System.Security.Claims;
 using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
+using System.Web.Cors;
 using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 
@@ -77,6 +80,19 @@ namespace GamePortal.Web.Api
                 opt.ValidatorFactory = new CustomValidatorFactory(kernel);
             });
 
+
+
+            var provide = new CorsPolicyProvider();
+            provide.PolicyResolver = ctx => Task.FromResult(new System.Web.Cors.CorsPolicy { AllowAnyHeader = true, AllowAnyMethod = true, AllowAnyOrigin = true });
+
+            app.UseCors(new Microsoft.Owin.Cors.CorsOptions { PolicyProvider = provide });
+
+            app.UseStaticFiles();
+
+            app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3(settings => settings.ServerUrl = "http://demovm:50698");
+
+
+
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie
@@ -93,39 +109,69 @@ namespace GamePortal.Web.Api
 
             app.Map("/login/google", b => b.Use<GoogleAuthMiddleware>());
 
+
+            LoadIdentityServer(app,kernel);
+            
+         
+
+
+         
+
+
+             
+            //  AddHangmanSecurity(app, kernel);
+            //app.MapSignalR(//path:"/signalr"  , по умолчанию заданный путь
+            //    configuration:  new HubConfiguration { 
+            //    EnableDetailedErrors = true,
+            //    EnableJSONP = true
+            //});
+
+
+
+
+            app.UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
+        }
+
+
+
+        public static void LoadIdentityServer(IAppBuilder app, IKernel kernel)
+        {
+
             IdentityServerServiceFactory factory = new IdentityServerServiceFactory();
             var client = new Client()
             {
                 ClientId = "HangmanClient",
-                ClientSecrets = new List<Secret>() { new Secret("secret".Sha256())  },
+                ClientSecrets = new List<Secret>() { new Secret("secret".Sha256()) },
                 AllowAccessToAllScopes = true,
                 ClientName = "Hangman Client",
                 Flow = Flows.AuthorizationCode,
-                RedirectUris = new List<string>() { "https://localhost:5555" }
+                RedirectUris = new List<string>() { "https://localhost:5555" , "https://localhost:4200/index.html" , "http://localhost:50698" }
             };
-
             var user = new InMemoryUser()
             {
                 Username = "qwe",
                 Password = "qwe1423",
                 Subject = "123-123-123",
-                Claims = new[] { new Claim("api-version", "1") }
+                //Claims = new[] { new Claim("api-version", "1") }
             };
 
+            factory.UseInMemoryScopes(StandardScopes.All.Append(new Scope()
+            {
+                Name = "api",
+                Type = ScopeType.Identity,
+                //Claims = new List<ScopeClaim>{new ScopeClaim("api-version", true)}
+            }))
+                .UseInMemoryClients(new[] { client })
+                .UseInMemoryUsers(new List<InMemoryUser>() { user });
 
 
-            factory.UseInMemoryScopes(StandardScopes.All)
-                .UseInMemoryClients(new[] { client });
-               // .UseInMemoryUsers(new List<InMemoryUser>() { user });
-
-            factory.UserService = new Registration<IdentityServer3.Core.Services.IUserService>(new AspNetIdentityUserService<IdentityUser, string>(kernel.Get<UserManager<IdentityUser>>()));
-
-
+            factory.UserService =
+                new Registration<IdentityServer3.Core.Services.IUserService>
+                (new AspNetIdentityUserService<IdentityUser, string>(kernel.Get<UserManager<IdentityUser>>()));
 
             app.UseIdentityServer(new IdentityServerOptions
             {
                 EnableWelcomePage = true,
-               
 #if DEBUG
                 RequireSsl = false,
 #endif
@@ -140,41 +186,28 @@ namespace GamePortal.Web.Api
                 Factory = factory,
                 SigningCertificate = LoadCertificate()
             })
-                .UseIdentityServerBearerTokenAuthentication(new  IdentityServerBearerTokenAuthenticationOptions
-                {
-                    Authority = "https://localhost:44313",
-                    ClientId = "HangmanClient",
-                    ClientSecret = "secret",
-                    RequireHttps = false,
-                    ValidationMode = ValidationMode.Both,
-                    IssuerName = "https://localhost:44313",
-                    SigningCertificate = LoadCertificate(),
-                    ValidAudiences = new[] { "https://localhost:44313/resources" }
-                });
-
-            
- 
+            .UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
+            {
+                Authority = "https://localhost:44307",
+                ClientId = "HangmanClient",
+                ClientSecret = "secret",
+                RequireHttps = false,
+                ValidationMode = ValidationMode.Local,
+                IssuerName = "https://localhost:44307",
+                SigningCertificate = LoadCertificate(),
+                ValidAudiences = new[] { "https://localhost:44307/resources" }
+            });
              
 
-            //  AddHangmanSecurity(app, kernel);
-            //app.MapSignalR(//path:"/signalr"  , по умолчанию заданный путь
-            //    configuration:  new HubConfiguration { 
-            //    EnableDetailedErrors = true,
-            //    EnableJSONP = true
-            //});
-
-
-            app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3()
-                .UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
         }
-         
+
 
         private static X509Certificate2 LoadCertificate()
         {
-            return 
+            return
                 new X509Certificate2(
-                fileName: Path.Combine( AppDomain.CurrentDomain.BaseDirectory, @"bin\Sertificate\idsrv3test.pfx")
-                ,password: "1423");
+                fileName: Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"bin\Sertificate\idsrv3test.pfx")
+                , password: "1423");
         }
 
 
@@ -182,7 +215,7 @@ namespace GamePortal.Web.Api
         {
 
 
-           
+
 
             return app;
         }
