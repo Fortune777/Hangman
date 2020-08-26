@@ -32,16 +32,17 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
+  { path: 'index.html', component: HomeComponent },
 ];
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
+    RouterModule.forRoot(routes),
     CoreModule,
     UserModule,
     GameModule,
-    RouterModule.forRoot(routes),
   ],
   exports: [RouterModule],
 })

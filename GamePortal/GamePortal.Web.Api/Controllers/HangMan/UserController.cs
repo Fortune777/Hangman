@@ -3,6 +3,7 @@ using APerepechko.HangMan.Logic.Model;
 using APerepechko.HangMan.Logic.Services.Contracts;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
+using Swashbuckle.Swagger.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace GamePortal.Web.Api.Controllers.HangMan
         }
 
         [HttpPost, Route("register")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(NewUserDto))]
+        [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public async Task<IHttpActionResult> Register([FromBody]NewUserDto model)
         {
             if (!ModelState.IsValid) return BadRequest("Invalid model");
@@ -37,6 +40,8 @@ namespace GamePortal.Web.Api.Controllers.HangMan
 
 
         [HttpPost, Route("login")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(LoginDto))]
+        [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public async Task<IHttpActionResult> Login([FromBody] LoginDto model)
         {
             if (!ModelState.IsValid) return BadRequest("Invalid model");

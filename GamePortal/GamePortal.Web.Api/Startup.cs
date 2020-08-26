@@ -86,9 +86,9 @@ namespace GamePortal.Web.Api
             provide.PolicyResolver = ctx => Task.FromResult(new System.Web.Cors.CorsPolicy { AllowAnyHeader = true, AllowAnyMethod = true, AllowAnyOrigin = true });
             app.UseCors(new Microsoft.Owin.Cors.CorsOptions { PolicyProvider = provide });
 
-            
+
             app.UseStaticFiles();
-            app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3(settings => settings.ServerUrl = "http://demovm:50698");
+            app.UseSwagger(typeof(Startup).Assembly).UseSwaggerUi3(settings => settings.ServerUrl = "http://localhost:50698");
 
 
 
@@ -109,9 +109,9 @@ namespace GamePortal.Web.Api
             app.Map("/login/google", b => b.Use<GoogleAuthMiddleware>());
 
 
-            LoadIdentityServer(app,kernel);
-            
-             
+            LoadIdentityServer(app, kernel);
+
+
             //  AddHangmanSecurity(app, kernel);
             //app.MapSignalR(//path:"/signalr"  , по умолчанию заданный путь
             //    configuration:  new HubConfiguration { 
@@ -137,7 +137,8 @@ namespace GamePortal.Web.Api
                 AllowAccessToAllScopes = true,
                 ClientName = "Hangman Client",
                 Flow = Flows.AuthorizationCode,
-                RedirectUris = new List<string>() { "http://localhost:5555" , "http://localhost:4200/index.html" , "http://localhost:50698" }
+                RedirectUris = new List<string>() { "https://localhost:5555", "https://localhost:4200/index.html", "http://localhost:50698" },
+                PostLogoutRedirectUris = new List<string>() { "http://localhost:50698", "https://localhost:4200/index.html" }
             };
             var user = new InMemoryUser()
             {
@@ -191,7 +192,6 @@ namespace GamePortal.Web.Api
             });
         }
 
-
         private static X509Certificate2 LoadCertificate()
         {
             return
@@ -200,12 +200,9 @@ namespace GamePortal.Web.Api
                 , password: "1423");
         }
 
-
         public static IAppBuilder AddHangmanSecurity(IAppBuilder app, IKernel kernel)
         {
             return app;
         }
-
-
     }
 }

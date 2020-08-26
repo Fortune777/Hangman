@@ -1,3 +1,4 @@
+import { HangmanService } from './hangman.service';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -12,5 +13,6 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, RouterModule, ReactiveFormsModule, FormsModule],
 
   exports: [GameComponent, GuessComponent, HttpClientModule],
+  providers: [HangmanService],
 })
 export class GameModule {}

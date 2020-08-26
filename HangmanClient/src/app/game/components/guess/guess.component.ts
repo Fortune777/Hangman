@@ -1,8 +1,7 @@
-import { WordDto } from './../../models/wordDto';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
-import { HangmanService } from '../../hangman.service';
+import { HangmanService, WordDto } from '../../hangman.service';
 
 @Component({
   selector: 'app-guess',
@@ -18,15 +17,15 @@ export class GuessComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.route.paramMap
-      .pipe(
-        switchMap((params) => {
-          const id = +params.get('id');
-          return this.HangmanSrv.SelectWordsFromTheme(id);
-        })
-      )
-      .subscribe((data) => (this.WordResult = data));
+    // this.route.paramMap
+    //   .pipe(
+    //     switchMap((params) => {
+    //       const id = +params.get('id');
+    //       return this.HangmanSrv.SelectWordsFromTheme(id);
+    //     })
+    //   )
+    //   .subscribe((data) => (this.WordResult = data));
 
-    alert(this.WordResult.word);
+    alert(this.WordResult.Word);
   }
 }

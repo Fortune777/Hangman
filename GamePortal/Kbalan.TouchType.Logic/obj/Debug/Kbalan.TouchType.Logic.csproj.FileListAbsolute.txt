@@ -29,7 +29,7 @@ C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Log
 C:\GamePortal31\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.pdb
 C:\hangman\GamePortal\Kbalan.TouchType.Logic\bin\Debug\Kbalan.TouchType.Logic.dll
 C:\hangman\GamePortal\Kbalan.TouchType.Logic\bin\Debug\Kbalan.TouchType.Logic.pdb
-C:\hangman\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csprojAssemblyReference.cache
 C:\hangman\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csproj.CoreCompileInputs.cache
 C:\hangman\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.dll
 C:\hangman\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.pdb
+C:\Hangman\GamePortal\Kbalan.TouchType.Logic\obj\Debug\Kbalan.TouchType.Logic.csprojAssemblyReference.cache

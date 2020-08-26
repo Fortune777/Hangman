@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using APerepechko.HangMan.Logic.Model;
 using APerepechko.HangMan.Logic.Services;
+using Swashbuckle.Swagger.Annotations;
 
- 
-    
 namespace GamePortal.Web.Api.Controllers.Hangman
 {
     [RoutePrefix("api/hangman")]
@@ -22,6 +21,8 @@ namespace GamePortal.Web.Api.Controllers.Hangman
 
         [HttpGet]
         [Route("SelectWordsFromThemeAsync/{id:int}")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(WordDto))]
+        [SwaggerResponse(HttpStatusCode.NotFound)]
         public async Task<IHttpActionResult> SelectWordsFromThemeAsync(int id)
         {
             var result = await _hangmanService.SelectWordsFromThemeAsync(id);
@@ -38,23 +39,20 @@ namespace GamePortal.Web.Api.Controllers.Hangman
        // [HttpGet, Authorize]
         [HttpGet, HostAuthentication("Bearer")]
         [Route("GetAllThemesAsync")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<ThemeDto>))]
+        [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public async Task<IHttpActionResult> GetAllThemesAsync()
         {
             var result = await _hangmanService.GetAllThemesAsync();
             return result.IsSuccess ? Ok(result.Value) : (IHttpActionResult)StatusCode(HttpStatusCode.InternalServerError);
         }
-
-        [HttpGet, Authorize]
-        [Route("GetAllThemesAsyncAuthorize")]
-        public async Task<IHttpActionResult> GetAllThemesAsyncAuthorize()
-        {
-            var result = await _hangmanService.GetAllThemesAsync();
-            return result.IsSuccess ? Ok(result.Value) : (IHttpActionResult)StatusCode(HttpStatusCode.InternalServerError);
-        }
+ 
 
 
         [HttpGet]
         [Route("GenerateRandomWordAsync")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(WordDto))]
+        [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public async Task<IHttpActionResult> GenerateRandomWordAsync()
         {
             var result = await _hangmanService.GenerateRandomWordAsync();
@@ -63,6 +61,8 @@ namespace GamePortal.Web.Api.Controllers.Hangman
 
         [HttpPost]
         [Route("IsLetterExistWord")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(WordDto))]
+        [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public IHttpActionResult IsLetterExistWord([FromBody] WordDto model)
         {
             var result =  _hangmanService.IsLetterExistWord(model);
@@ -72,6 +72,8 @@ namespace GamePortal.Web.Api.Controllers.Hangman
         //update
         [HttpPut]
         [Route("UpdateStatistics/Update/{id:int}")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(UserStatisticsDto))]
+        [SwaggerResponse(HttpStatusCode.NoContent)]
         public IHttpActionResult UpdateUserStatistics(int id, [FromBody] UserStatisticsDto model)
         {
             var result =  _hangmanService.UpdateStatistics(id, model);

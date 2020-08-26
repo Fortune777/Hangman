@@ -23,7 +23,7 @@ export const oauthConfig: AuthConfig = {
   skipIssuerCheck: true,
   showDebugInformation: true,
   disablePKCE: true,
-  // postLogoutRedirectUri: window.location.origin + '/login',
+  postLogoutRedirectUri: window.location.origin + '/login',
 };
 
 @Injectable({ providedIn: 'root' })
