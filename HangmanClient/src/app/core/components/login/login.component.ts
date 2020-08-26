@@ -29,15 +29,15 @@ export class LoginComponent implements OnInit {
   ) {
     this.loginGroup = this.fb.group({
       username: [''],
-      psw: [''],
+      password: [''],
       remember: [true],
     });
   }
 
   ngOnInit(): void {
-    this.loginService.LoggedOn$.pipe(filter((_) => _)).subscribe((_) => {
-      this.router.navigate(['game']);
-    });
+    // this.loginService.LoggedOn$.pipe(filter((_) => _)).subscribe((_) => {
+    //   this.router.navigate(['game']);
+    // });
   }
 
   // tslint:disable-next-line: typedef

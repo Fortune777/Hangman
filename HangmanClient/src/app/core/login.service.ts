@@ -3,7 +3,12 @@ import { Routes } from '@angular/router';
 import { UserDto } from './models/userDto';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { FormControl, Validators, FormGroup } from '@angular/forms';
+import {
+  FormControl,
+  Validators,
+  FormGroup,
+  FormBuilder,
+} from '@angular/forms';
 import { OAuthService, AuthConfig } from 'angular-oauth2-oidc';
 import { Router } from '@angular/router';
 
@@ -23,15 +28,25 @@ export const oauthConfig: AuthConfig = {
 
 @Injectable({ providedIn: 'root' })
 export class LoginService {
-  logingroup = new FormGroup({});
+  loginGroup = new FormGroup({});
 
-  emailControl = new FormControl('', [Validators.required]);
-  passwordControl = new FormControl();
+  // emailControl = new FormControl('', [Validators.required]);
+  // passwordControl = new FormControl();
 
   private loggedOnSubject = new BehaviorSubject<boolean>(true);
   private user: UserDto;
 
-  constructor(private router: Router, private oauth: OAuthService) {
+  constructor(
+    private router: Router,
+    private oauth: OAuthService,
+    private fb: FormBuilder
+  ) {
+    this.loginGroup = this.fb.group({
+      username: [''],
+      password: [''],
+      remember: [true],
+    });
+
     this.oauth.configure(oauthConfig);
     this.oauth.loadDiscoveryDocumentAndTryLogin();
   }

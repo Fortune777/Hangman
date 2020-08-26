@@ -14,7 +14,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 /*
 маршруты
-
  /home
  /pizzas
  /login

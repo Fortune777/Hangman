@@ -1,4 +1,4 @@
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [GameComponent, GuessComponent],
 
-  imports: [CommonModule, RouterModule, ReactiveFormsModule],
+  imports: [CommonModule, RouterModule, ReactiveFormsModule, FormsModule],
 
   exports: [GameComponent, GuessComponent, HttpClientModule],
 })

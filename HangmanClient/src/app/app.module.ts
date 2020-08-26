@@ -1,3 +1,6 @@
+import { GameModule } from './game/game.module';
+import { UserModule } from './user/user.module';
+import { CoreModule } from './core/core.module';
 import { HangmanroutingModule } from './hangmanrouting.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -20,7 +23,13 @@ export function initConfig(): SignalRConfiguration {
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HangmanroutingModule],
+  imports: [
+    BrowserModule,
+    HangmanroutingModule,
+    CoreModule,
+    UserModule,
+    GameModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
