@@ -5,6 +5,10 @@
     "outDir": "./out-tsc/app",
     "types": []
   },
-  "files": ["src/main.ts", "src/polyfills.ts", "./src/app/models/themeDto.ts"],
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts",
+    "src/app/game/models/themeDto.ts"
+  ],
   "include": ["src/**/*.d.ts"]
 }

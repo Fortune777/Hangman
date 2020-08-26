@@ -1,11 +1,10 @@
-import { WordDto } from './../../../models/wordDto';
 import { FormBuilder } from '@angular/forms';
-import { HangmanService } from './../../../services/hangman.service';
-import { themeDto } from './../../../models/themeDto';
-import { OAuthService } from 'angular-oauth2-oidc';
+import { HangmanService } from '../../hangman.service';
+import { themeDto } from '../../models/themeDto';
 import { Component, OnInit } from '@angular/core';
 import { Self, Optional, SkipSelf, Input } from '@angular/core';
 import { delay, share } from 'rxjs/operators';
+import { WordDto } from '../../models/wordDto';
 
 @Component({
   selector: 'app-game',
@@ -16,7 +15,6 @@ export class GameComponent implements OnInit {
   Alltheme: themeDto[] = [];
   wordResult: WordDto;
   selId = '0';
-  oppoSuits: any = ['Men', 'Women', 'Boys', 'Inspiration'];
 
   constructor(public srv: HangmanService) {}
 

@@ -1,4 +1,4 @@
-import { HangmanService } from './../../services/hangman.service';
+import { HangmanService } from '../../game/hangman.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

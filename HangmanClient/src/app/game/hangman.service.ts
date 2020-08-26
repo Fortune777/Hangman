@@ -1,5 +1,5 @@
-import { WordDto } from './../models/wordDto';
-import { themeDto } from './../models/themeDto';
+import { WordDto } from './models/wordDto';
+import { themeDto } from './models/themeDto';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';

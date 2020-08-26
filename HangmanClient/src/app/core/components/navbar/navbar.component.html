@@ -40,6 +40,10 @@
       <li class="nav-item" *ngIf="this.loginSrv.LoggedOn">
         <a class="nav-link" (click)="this.loginSrv.logout()">Logout</a>
       </li>
+
+      <li class="nav-item" *ngIf="this.loginSrv.LoggedOn">
+        <a class="nav-link">Welcome {{ this.email }}</a>
+      </li>
     </ul>
   </div>
 </nav>

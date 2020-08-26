@@ -1,4 +1,4 @@
-import { LoginService } from './../../../services/login.service';
+import { LoginService } from '../../../core/login.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
@@ -14,7 +14,6 @@ import {
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
 })
-
 export class LoginComponent implements OnInit {
   loginGroup: FormGroup;
   // ({
@@ -24,25 +23,34 @@ export class LoginComponent implements OnInit {
   // });
 
   constructor(
-    private loginSrv: LoginService,
+    private loginService: LoginService,
     private router: Router,
     private fb: FormBuilder
   ) {
     this.loginGroup = this.fb.group({
-      email: ['', [Validators.required, Validators.email]],
-      psw: ['', [Validators.required]],
+      username: [''],
+      psw: [''],
       remember: [true],
     });
   }
 
   ngOnInit(): void {
-    this.loginSrv.LoggedOn$.pipe(filter((_) => _)).subscribe((_) => {
+    this.loginService.LoggedOn$.pipe(filter((_) => _)).subscribe((_) => {
       this.router.navigate(['game']);
     });
   }
 
   // tslint:disable-next-line: typedef
   login() {
-    this.loginSrv.login();
+    this.loginService.login();
+  }
+
+  // tslint:disable-next-line: typedef
+  loginWithPassword() {
+    console.log(this.loginGroup.value);
+    this.loginService.login(
+      this.loginGroup.value.username,
+      this.loginGroup.value.password
+    );
   }
 }

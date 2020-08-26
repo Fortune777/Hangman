@@ -1,8 +1,8 @@
+import { WordDto } from './../../models/wordDto';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
-import { HangmanService } from './../../../services/hangman.service';
-import { WordDto } from './../../../models/wordDto';
+import { HangmanService } from '../../hangman.service';
 
 @Component({
   selector: 'app-guess',

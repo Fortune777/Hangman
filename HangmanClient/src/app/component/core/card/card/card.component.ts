@@ -1,5 +1,5 @@
-import { themeDto } from './../../../../models/themeDto';
-import { HangmanService } from './../../../../services/hangman.service';
+import { themeDto } from '../../../../game/models/themeDto';
+import { HangmanService } from '../../../../game/hangman.service';
 import {
   Component,
   OnInit,

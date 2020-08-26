@@ -1,5 +1,4 @@
-import { LoginComponent } from './../component/main/login/login.component';
-import { LoginService } from './../services/login.service';
+import { LoginService } from '../login.service';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import {
@@ -13,7 +12,7 @@ import {
 @Injectable({
   providedIn: 'root',
 })
-export class HangmanGuard implements CanActivate {
+export class AuthGuard implements CanActivate {
   constructor(private loginSrv: LoginService, private router: Router) {}
 
   canActivate(

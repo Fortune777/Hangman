@@ -1,4 +1,8 @@
-<form class="form-signin" [formGroup]="loginGroup" (ngSubmit)="this.login()">
+<form
+  class="form-signin"
+  [formGroup]="loginGroup"
+  (ngSubmit)="this.loginWithPassword()"
+>
   <div class="text-center mb-4">
     <img
       class="mb-4"
@@ -12,14 +16,13 @@
 
   <div class="form-label-group">
     <input
-      type="email"
       id="inputEmail"
       class="form-control"
-      placeholder="Email address"
+      placeholder="UserName"
       autofocus=""
-      formControlName="email"
+      formControlName="username"
     />
-    <label for="inputEmail">Email address</label>
+    <label for="inputEmail">Username</label>
   </div>
 
   <div class="form-label-group">
@@ -43,7 +46,6 @@
   <button class="btn btn-lg btn-primary btn-block" type="submit">
     Sign in
   </button>
-
   <button class="btn btn-lg btn-secondary btn-block" (click)="this.login()">
     Sign in with Identity Server
   </button>

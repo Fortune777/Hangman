@@ -1,25 +1,24 @@
 import { Routes } from '@angular/router';
 // import { LoginService, oauthConfig } from './login.service';
-import { UserDto } from './../models/userDto';
+import { UserDto } from './models/userDto';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { OAuthService, AuthConfig } from 'angular-oauth2-oidc';
-import { routes } from '../hangmanRouting/hangmanrouting.module';
 import { Router } from '@angular/router';
 
 export const oauthConfig: AuthConfig = {
   issuer: 'http://localhost:50698',
-  redirectUri: window.location.origin + 'index.html',
+  redirectUri: window.location.origin + '/index.html',
   clientId: 'HangmanClient',
   responseType: 'code',
   dummyClientSecret: 'secret',
-  scope: 'openid profile email api',
+  scope: 'openid profile email',
   requireHttps: false,
   skipIssuerCheck: true,
   showDebugInformation: true,
   disablePKCE: true,
-  postLogoutRedirectUri: window.location.origin + '/login',
+  // postLogoutRedirectUri: window.location.origin + '/login',
 };
 
 @Injectable({ providedIn: 'root' })
@@ -49,7 +48,17 @@ export class LoginService {
 
   // tslint:disable-next-line: typedef
   login(userName?: string, password?: string) {
-    this.oauth.initCodeFlow();
+    if (!userName || !password) {
+      this.oauth.initLoginFlow();
+    }
+
+    this.oauth
+      .fetchTokenUsingPasswordFlowAndLoadUserProfile(userName, password)
+      .then((userInfo) => {
+        this.user = { uid: userInfo.sub, fullName: 'Ivan Ivanov' };
+        this.loggedOnSubject.next(true);
+      })
+      .catch((reason) => console.error(reason));
 
     // setTimeout(() => {
     //   this.user = { uid: '111-111-111', fullName: 'Ivan Ivanov' };
@@ -61,6 +70,21 @@ export class LoginService {
   logout() {
     this.user = null;
     this.loggedOnSubject.next(false);
+    this.oauth.logOut();
     this.router.navigate(['home']);
+  }
+
+  // tslint:disable-next-line: typedef
+  loadUserInfo() {
+    const claims = this.oauth.getIdentityClaims();
+
+    //   this.oauth
+    //     .loadUserProfile()
+    //     .then((userInfo) => {
+    //       this.user = { uid: userInfo.sub, fullName: 'Ivan Ivanov' };
+    //       this.loggedOnSubject.next(true);
+    //     })
+    //     .catch((reason) => console.error(reason));
+    // }
   }
 }
