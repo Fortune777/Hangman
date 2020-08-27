@@ -35,9 +35,9 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // this.loginService.LoggedOn$.subscribe((_) => {
-    //   this.router.navigate(['game']);
-    // });
+    this.loginService.LoggedOn$.subscribe((_) => {
+      // this.router.navigate(['game']);
+    });
   }
 
   // tslint:disable-next-line: typedef

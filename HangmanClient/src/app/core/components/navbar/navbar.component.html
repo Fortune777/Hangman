@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-  <a class="navbar-brand">Игра Виселица</a>
+  <a class="navbar-brand" href="#">Игра Виселица</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -18,34 +18,38 @@
           >Home</a
         >
       </li>
-
-      <li class="nav-item" *ngIf="isLogged">
-        <a class="nav-link" routerLink="/game" routerLinkActive="active"
-          >Game</a
+      <li class="nav-item" *ngIf="this.user$ | async">
+        <a class="nav-link" routerLink="/pizzas" routerLinkActive="active"
+          >Pizzas</a
         >
       </li>
-
-      <li class="nav-item" *ngIf="isLogged">
+      <li class="nav-item" *ngIf="this.user$ | async">
         <a class="nav-link" routerLink="/profile" routerLinkActive="active"
           >Profile</a
         >
       </li>
-
-      <li class="nav-item" *ngIf="!isLogged">
+      <li class="nav-item" *ngIf="!(this.user$ | async)">
         <a class="nav-link" routerLink="/login" routerLinkActive="active"
           >Login</a
         >
       </li>
-
-      <li class="nav-item" *ngIf="isLogged">
+      <li class="nav-item" *ngIf="this.user$ | async">
         <a class="nav-link" (click)="this.logout()">Logout</a>
       </li>
-
-      <li class="nav-item" *ngIf="isLogged">
-        <a class="nav-link"
-          >Welcome {{ (this.user$ | async).preffer_username }}</a
-        >
+      <li class="nav-item" *ngIf="this.user$ | async; let u">
+        <a class="nav-link">Welcome {{ u.email }}</a>
       </li>
     </ul>
+    <div class="form-inline mt-2 mt-md-0">
+      <input
+        class="form-control mr-sm-2"
+        type="text"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </div>
   </div>
 </nav>

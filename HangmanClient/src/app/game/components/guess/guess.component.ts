@@ -10,21 +10,27 @@ import { HangmanService, WordDto } from '../../hangman.service';
 })
 export class GuessComponent implements OnInit {
   WordResult: WordDto;
-
+  id: number;
   constructor(
     private route: ActivatedRoute,
-    private HangmanSrv: HangmanService
+
+    private service: HangmanService
   ) {}
 
   ngOnInit(): void {
-    // this.route.paramMap
-    //   .pipe(
-    //     switchMap((params) => {
-    //       const id = +params.get('id');
-    //       return this.HangmanSrv.SelectWordsFromTheme(id);
-    //     })
-    //   )
-    //   .subscribe((data) => (this.WordResult = data));
+    this.route.paramMap.pipe(
+      switchMap(async (params) => {
+        this.id = +params.get('id');
+        return this.service
+          .selectWordsFromTheme(this.id)
+          .subscribe((x) => (this.WordResult = x));
+      })
+    );
+    // .subscribe((x) => (this.WordResult = x));
+
+    this.route.paramMap
+      .pipe(switchMap((params) => params.getAll('id')))
+      .subscribe((data) => (this.id = +data));
 
     alert(this.WordResult.Word);
   }

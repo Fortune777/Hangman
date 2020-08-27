@@ -16,14 +16,6 @@ export class GameComponent implements OnInit {
 
   constructor(public hangmanClient: HangmanService) {}
 
-  // tslint:disable-next-line: typedef
-  btnStartGame() {
-    const id = Number.parseInt(this.selId, 10);
-    this.hangmanClient
-      .selectWordsFromTheme(id)
-      .subscribe((data) => (this.wordResult = data));
-  }
-
   ngOnInit(): void {
     this.hangmanClient
       .getAllThemes()

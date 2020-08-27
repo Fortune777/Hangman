@@ -1,13 +1,18 @@
 <div class="container">
-  <label>Выберете тему</label> <br />
+  <div class="row">
+    <label id="lblChooseTheme">Выберете тему</label>
+  </div>
 
-  <select [(ngModel)]="this.selId" id="aantal" class="form-control">
-    <option *ngFor="let option of Alltheme" [value]="option.ThemeId">
-      {{ option.Theme }}
-    </option>
-  </select>
-  <p>Selected Quantity : {{ selId }} {{ wordResult }}</p>
-
-  <a [routerLink]="[selId]" class="link">Go somewhere</a>
-  <button (click)="btnStartGame()" type="button">Начать игру</button>
+  <div class="row">
+    <div class="col-md-4">
+      <select [(ngModel)]="this.selId" id="selectTheme" class="form-control">
+        <option *ngFor="let option of Alltheme" [value]="option.ThemeId">
+          {{ option.Theme }}
+        </option>
+      </select>
+    </div>
+    <div class="col-md-4 col-md-offset-4">
+      <a id="btnStartGame" [routerLink]="[selId]" class="link">Начать игру</a>
+    </div>
+  </div>
 </div>
