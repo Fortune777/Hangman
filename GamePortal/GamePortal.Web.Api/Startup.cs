@@ -137,8 +137,8 @@ namespace GamePortal.Web.Api
                 AllowAccessToAllScopes = true,
                 ClientName = "Hangman Client",
                 Flow = Flows.AuthorizationCode,
-                RedirectUris = new List<string>() { "https://localhost:5555", "https://localhost:4200/index.html", "http://localhost:50698" },
-                PostLogoutRedirectUris = new List<string>() { "http://localhost:50698", "https://localhost:4200/index.html" }
+                RedirectUris = new List<string>() { "https://localhost:5555", "https://localhost:4200/index.html", "http://localhost:50698" , "https://localhost:44307"},
+                PostLogoutRedirectUris = new List<string>() { "http://localhost:50698", "https://localhost:4200/index.html", "https://localhost:44307" }
             };
             var user = new InMemoryUser()
             {

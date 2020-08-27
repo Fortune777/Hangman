@@ -1,28 +1,31 @@
+import { filter, switchMap, map } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 import { Routes } from '@angular/router';
-// import { LoginService, oauthConfig } from './login.service';
 import { UserDto } from './models/userDto';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable, from } from 'rxjs';
 import {
   FormControl,
   Validators,
   FormGroup,
   FormBuilder,
 } from '@angular/forms';
-import { OAuthService, AuthConfig } from 'angular-oauth2-oidc';
+import { OAuthService, AuthConfig, OAuthEvent } from 'angular-oauth2-oidc';
 import { Router } from '@angular/router';
+import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 
 export const oauthConfig: AuthConfig = {
   issuer: 'http://localhost:50698',
   redirectUri: window.location.origin + '/index.html',
   clientId: 'HangmanClient',
-  responseType: 'code',
+  // responseType: 'code',
   dummyClientSecret: 'secret',
   scope: 'openid profile email',
   requireHttps: false,
   skipIssuerCheck: true,
   showDebugInformation: true,
   disablePKCE: true,
+  oidc: false,
   postLogoutRedirectUri: window.location.origin + '/login',
 };
 
@@ -33,7 +36,9 @@ export class LoginService {
   // emailControl = new FormControl('', [Validators.required]);
   // passwordControl = new FormControl();
 
-  private loggedOnSubject = new BehaviorSubject<boolean>(true);
+  private loggedOnSubject: BehaviorSubject<UserDto> = new BehaviorSubject<
+    UserDto
+  >(null);
   private user: UserDto;
 
   constructor(
@@ -51,8 +56,7 @@ export class LoginService {
     this.oauth.loadDiscoveryDocumentAndTryLogin();
   }
 
-  // tslint:disable-next-line: typedef
-  get LoggedOn$() {
+  get LoggedOn$(): Observable<UserDto> {
     return this.loggedOnSubject.asObservable();
   }
 
@@ -65,13 +69,21 @@ export class LoginService {
   login(userName?: string, password?: string) {
     if (!userName || !password) {
       this.oauth.initLoginFlow();
+      this.oauth.events
+        .pipe(
+          filter((value) => value.type === 'token_received'),
+          map((_) =>
+            Object.assign({} as UserDto, this.oauth.getIdentityClaims())
+          )
+        )
+        .subscribe((u) => this.loggedOnSubject.next(u));
     }
 
     this.oauth
       .fetchTokenUsingPasswordFlowAndLoadUserProfile(userName, password)
       .then((userInfo) => {
-        this.user = { uid: userInfo.sub, fullName: 'Ivan Ivanov' };
-        this.loggedOnSubject.next(true);
+        this.user = Object.assign({} as UserDto, userInfo);
+        this.loggedOnSubject.next(this.user);
       })
       .catch((reason) => console.error(reason));
 
@@ -84,7 +96,7 @@ export class LoginService {
   // tslint:disable-next-line: typedef
   logout() {
     this.user = null;
-    this.loggedOnSubject.next(false);
+    this.loggedOnSubject.next(this.user);
     this.oauth.logOut();
     this.router.navigate(['home']);
   }

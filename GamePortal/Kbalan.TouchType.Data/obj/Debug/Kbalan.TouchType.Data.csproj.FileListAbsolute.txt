@@ -28,9 +28,9 @@ C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data
 C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
 C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
 C:\GamePortal31\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb
-C:\hangman\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
-C:\hangman\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
-C:\hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
-C:\hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
-C:\hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
-C:\hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb
+C:\Hangman\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.dll
+C:\Hangman\GamePortal\Kbalan.TouchType.Data\bin\Debug\Kbalan.TouchType.Data.pdb
+C:\Hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csprojAssemblyReference.cache
+C:\Hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.csproj.CoreCompileInputs.cache
+C:\Hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.dll
+C:\Hangman\GamePortal\Kbalan.TouchType.Data\obj\Debug\Kbalan.TouchType.Data.pdb

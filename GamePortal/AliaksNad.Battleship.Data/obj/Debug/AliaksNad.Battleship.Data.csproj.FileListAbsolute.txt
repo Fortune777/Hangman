@@ -25,8 +25,8 @@ C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battles
 C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
 C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
 C:\GamePortal31\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
-C:\hangman\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.dll
-C:\hangman\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.pdb
-C:\hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
-C:\hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
-C:\hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
+C:\Hangman\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.dll
+C:\Hangman\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.Data.pdb
+C:\Hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
+C:\Hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
+C:\Hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb

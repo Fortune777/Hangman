@@ -37,12 +37,14 @@
         >
       </li>
 
-      <li class="nav-item" *ngIf="this.loginSrv.LoggedOn">
-        <a class="nav-link" (click)="this.loginSrv.logout()">Logout</a>
+      <li class="nav-item" *ngIf="isLogged">
+        <a class="nav-link" (click)="this.logout()">Logout</a>
       </li>
 
-      <li class="nav-item" *ngIf="this.loginSrv.LoggedOn">
-        <a class="nav-link">Welcome {{ this.email }}</a>
+      <li class="nav-item" *ngIf="isLogged">
+        <a class="nav-link"
+          >Welcome {{ (this.user$ | async).preffer_username }}</a
+        >
       </li>
     </ul>
   </div>
