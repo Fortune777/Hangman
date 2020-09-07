@@ -103,11 +103,6 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             return Ok();
         }
 
-
-
-
-
-
         [HttpPost]
         [Route("AddTheme")]
         public IHttpActionResult AddTheme([FromBody] UserDto model)
@@ -123,10 +118,6 @@ namespace GamePortal.Web.Api.Controllers.Hangman
         {
             return Created($"/hangman/{model.Id}", model);
         }
-
-
-      
-
         //delete
         [HttpDelete]
         [Route("{id:int}")]
@@ -135,11 +126,6 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             //delete
             return StatusCode(HttpStatusCode.NoContent);
         }
-
-
-
-
-
       
         protected override void Dispose(bool disposing)
         {

@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { GameModule } from './game/game.module';
 import { UserModule } from './user/user.module';
 import { CoreModule } from './core/core.module';
@@ -6,11 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
-import {
-  SignalRModule,
-  SignalRConfiguration,
-  ConnectionTransport,
-} from 'ng2-signalr';
+import { SignalRConfiguration } from 'ng2-signalr';
 
 export function initConfig(): SignalRConfiguration {
   const cfg = new SignalRConfiguration();
@@ -26,6 +23,7 @@ export function initConfig(): SignalRConfiguration {
   imports: [
     BrowserModule,
     HangmanroutingModule,
+    FormsModule,
     CoreModule,
     UserModule,
     GameModule,

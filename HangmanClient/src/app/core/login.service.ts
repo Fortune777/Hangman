@@ -17,7 +17,7 @@ import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 export const oauthConfig: AuthConfig = {
   issuer: 'http://localhost:50698',
   redirectUri: window.location.origin + '/index.html',
-  clientId: 'HangmanClient',
+  clientId: 'HangmanClientUser',
   responseType: 'code',
   dummyClientSecret: 'secret',
   scope: 'openid profile email',
@@ -65,7 +65,7 @@ export class LoginService {
 
     // Promise -> Observable
     this.oauth
-      .fetchTokenUsingPasswordFlowAndLoadUserProfile(userName, password)
+      .fetchTokenUsingPasswordFlowAndLoadUserProfile('boss', '1423')
       .then((userInfo) => {
         this.user = Object.assign({} as UserDto, userInfo);
         this.loggedOnSubject.next(this.user);

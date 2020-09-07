@@ -263,7 +263,6 @@ C:\hangman\GamePortal\APerepechko.HangMan.Data\bin\Debug\System.Net.Http.Formatt
 C:\hangman\GamePortal\APerepechko.HangMan.Data\bin\Debug\System.ValueTuple.xml
 C:\hangman\GamePortal\APerepechko.HangMan.Data\bin\Debug\System.Web.Http.xml
 C:\hangman\GamePortal\APerepechko.HangMan.Data\bin\Debug\System.Web.Http.WebHost.xml
-C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csprojAssemblyReference.cache
 C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.Migrations.InitialCreate.resources
 C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.Migrations.AddIdentity.resources
 C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csproj.GenerateResource.cache

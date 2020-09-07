@@ -1,1 +1,45 @@
-<p>guess works!</p>
+<div class="container">
+  <p>Кол-во попыток {{ WordResult.Theme }}</p>
+  <p>Текущее {{ WordResult.Word }}</p>
+  <p>Кол-во попыток {{ WordResult.HasChar }}</p>
+  <p>Кол-во попыток {{ WordResult.RemainingLetters }}</p>
+
+  <div class="row addHW">
+    <div class="col-md-1" *ngFor="let number of firstKeyBoard; index as i">
+      <button
+        class="bntStyle"
+        type="button"
+        [attr.id]="'id' + i"
+        (click)="getsymbol(number, 'id' + i)"
+      >
+        {{ number }}
+      </button>
+    </div>
+  </div>
+
+  <div class="row addHW">
+    <div class="col-md-1" *ngFor="let number of secondKeyBoard; index as i">
+      <button
+        class="bntStyle"
+        type="button"
+        [attr.id]="'id2' + i"
+        (click)="getsymbol(number, 'id2' + i)"
+      >
+        {{ number }}
+      </button>
+    </div>
+  </div>
+
+  <div class="row addHW">
+    <div class="col-md-1" *ngFor="let number of threeKeyBoard; index as i">
+      <button
+        class="bntStyle"
+        type="button"
+        [attr.id]="'id3' + i"
+        (click)="getsymbol(number, 'id3' + i)"
+      >
+        {{ number }}
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,5 @@
+import { DocmComponent } from './document/docm/docm.component';
+import { VersionComponent } from './version/version.component';
 import { GameModule } from './game/game.module';
 import { UserModule } from './user/user.module';
 import { CoreModule } from './core/core.module';
@@ -30,9 +32,11 @@ export const routes: Routes = [
   { path: 'game/:id', component: GuessComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'index.html', component: HomeComponent },
+  { path: 'version', component: VersionComponent },
+  { path: 'docm', component: DocmComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
-  { path: 'index.html', component: HomeComponent },
 ];
 
 @NgModule({
