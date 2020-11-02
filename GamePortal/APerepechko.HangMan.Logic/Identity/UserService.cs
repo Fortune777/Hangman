@@ -49,6 +49,7 @@ namespace APerepechko.HangMan.Logic.Identity
             return result.Succeeded ? Result.Success() : Result.Failure(result.Errors.Aggregate((a, b) => $"{a},{b}"));
         }
 
+
         public async Task ValidateEmailToken(string userId, string token)
         {
             var result = await _userManager.ConfirmEmailAsync(userId, token).ConfigureAwait(false);
@@ -80,7 +81,7 @@ namespace APerepechko.HangMan.Logic.Identity
         }
 
         public Task<Result> ChangePassword(string userId, string token, string newPassword)
-        {
+        { 
             throw new System.NotImplementedException();
         }
         public async Task<Maybe<UserDto>> GetUser(string username, string password)
@@ -102,7 +103,6 @@ namespace APerepechko.HangMan.Logic.Identity
 
             await _userManager.AddLoginAsync(user.Id, info.Login);
             return Result.Success();
-
         }
     }
 }

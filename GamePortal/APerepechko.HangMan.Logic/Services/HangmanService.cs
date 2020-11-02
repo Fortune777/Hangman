@@ -184,6 +184,9 @@ namespace APerepechko.HangMan.Logic.Services
             return Result.Success(model);
         }
 
+
+        // есть  WordDto 
+
         public async Task<Result<WordDto>> GenerateRandomWordAsync()
         {
             //случайное слово 

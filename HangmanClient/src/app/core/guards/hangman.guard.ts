@@ -8,12 +8,13 @@ import {
   UrlTree,
   Router,
 } from '@angular/router';
+import { OAuthService } from 'angular-oauth2-oidc';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthGuard implements CanActivate {
-  constructor(private loginSrv: LoginService, private router: Router) {}
+  constructor(private oauth: OAuthService, private router: Router) {}
 
   canActivate(
     next: ActivatedRouteSnapshot,
@@ -23,7 +24,7 @@ export class AuthGuard implements CanActivate {
     | Promise<boolean | UrlTree>
     | boolean
     | UrlTree {
-    if (this.loginSrv.LoggedOn) {
+    if (this.oauth.hasValidAccessToken()) {
       return true;
     }
 

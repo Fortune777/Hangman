@@ -1,5 +1,5 @@
 import { DocmComponent } from './document/docm/docm.component';
-import { VersionComponent } from './version/version.component';
+import { VersionComponent } from './version/component/version.component';
 import { GameModule } from './game/game.module';
 import { UserModule } from './user/user.module';
 import { CoreModule } from './core/core.module';
@@ -27,9 +27,9 @@ import { RouterModule, Routes } from '@angular/router';
 */
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'game', component: GameComponent },
-  { path: 'game/:id', component: GuessComponent },
+  { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+  { path: 'game', component: GameComponent, canActivate: [AuthGuard] },
+  { path: 'game/:id', component: GuessComponent, canActivate: [AuthGuard] },
   { path: 'profile', component: ProfileComponent },
   { path: 'login', component: LoginComponent },
   { path: 'index.html', component: HomeComponent },

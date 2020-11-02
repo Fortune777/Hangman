@@ -10,6 +10,7 @@ using Swashbuckle.Swagger.Annotations;
 
 namespace GamePortal.Web.Api.Controllers.Hangman
 {
+    [Authorize]
     [RoutePrefix("api/hangman")]
     public class HangmanController : ApiController
     {
@@ -36,7 +37,7 @@ namespace GamePortal.Web.Api.Controllers.Hangman
         }
 
    
-       // [HttpGet, Authorize]
+        // [HttpGet, Authorize]
         [HttpGet, HostAuthentication("Bearer")]
         [Route("GetAllThemesAsync")]
         [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<ThemeDto>))]

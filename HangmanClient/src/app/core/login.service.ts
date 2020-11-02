@@ -14,7 +14,23 @@ import { OAuthService, AuthConfig, OAuthEvent } from 'angular-oauth2-oidc';
 import { Router } from '@angular/router';
 import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 
-export const oauthConfig: AuthConfig = {
+export const oauthPasswordConfig: AuthConfig = {
+  issuer: 'http://localhost:50698',
+  redirectUri: window.location.origin + '/index.html',
+  clientId: 'HangmanClient',
+  // responseType: 'code',
+  dummyClientSecret: 'secret',
+  scope: 'openid profile email',
+  requireHttps: false,
+  skipIssuerCheck: true,
+  showDebugInformation: true,
+  disablePKCE: true,
+  oidc: false,
+  postLogoutRedirectUri: window.location.origin + '/login',
+};
+
+// оригинал
+export const oauthCodeConfig: AuthConfig = {
   issuer: 'http://localhost:50698',
   redirectUri: window.location.origin + '/index.html',
   clientId: 'HangmanClientUser',
@@ -25,7 +41,7 @@ export const oauthConfig: AuthConfig = {
   skipIssuerCheck: true,
   showDebugInformation: true,
   disablePKCE: true,
-  oidc: false,
+  // oidc: false,
   postLogoutRedirectUri: window.location.origin + '/login',
 };
 

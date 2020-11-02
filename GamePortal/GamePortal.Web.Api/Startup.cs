@@ -120,9 +120,8 @@ namespace GamePortal.Web.Api
             //});
 
 
+          app.UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
 
-
-            app.UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
         }
 
 
@@ -193,14 +192,14 @@ namespace GamePortal.Web.Api
             })
             .UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
-                Authority = "https://localhost:44307",
+                Authority = "http://localhost:50698",
                 ClientId = "HangmanClient",
                 ClientSecret = "secret",
                 RequireHttps = false,
                 ValidationMode = ValidationMode.Both,
-                IssuerName = "https://localhost:44307",
+                IssuerName = "http://localhost:50698",
                 SigningCertificate = LoadCertificate(),
-                ValidAudiences = new[] { "https://localhost:44307/resources" }
+                ValidAudiences = new[] { "http://localhost:50698/resources" }
             });
         }
 

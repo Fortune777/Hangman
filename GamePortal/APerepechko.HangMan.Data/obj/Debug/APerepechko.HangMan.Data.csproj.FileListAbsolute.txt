@@ -270,3 +270,4 @@ C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Dat
 C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csproj.CopyComplete
 C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.dll
 C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.pdb
+C:\hangman\GamePortal\APerepechko.HangMan.Data\obj\Debug\APerepechko.HangMan.Data.csprojAssemblyReference.cache
