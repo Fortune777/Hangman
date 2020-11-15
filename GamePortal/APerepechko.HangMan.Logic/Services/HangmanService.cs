@@ -8,11 +8,13 @@ using NullGuard;
 using Serilog;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.Core;
 using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace APerepechko.HangMan.Logic.Services
@@ -31,9 +33,6 @@ namespace APerepechko.HangMan.Logic.Services
             _context = context;
         }
 
-
-      
-
         public async Task<Result<IEnumerable<ThemeDto>>> GetAllThemesAsync()
         {
             _logger.Information("Get all Themes requested by anonymous");
@@ -49,40 +48,44 @@ namespace APerepechko.HangMan.Logic.Services
             }
         }
 
-        public async Task<Result<Maybe<UserDto>>> GetUserByIdAsync(int id)
-        {
 
-           //неправильно работающий метод
-           //переписать метод, не забыть
+        /// здесь получаем статистику по юзеру по id
+        //public async Task<Result<Maybe<UserDto>>> GetUserByIdAsync(string id)
+        //{
+        //    _logger.Information("Get User By Id");
+        //    try
+        //    {
+        //        var user = await _context.UserStatistics.AsNoTracking()
+        //            .CountAsync(x => x.UserId == id);
 
+        //        if (user == 0)
+        //        {
+        //            return Result.Failure<Maybe<UserDto>>("id пользователя не найден");
+        //        }
 
-            _logger.Information("Get User By Id");
-            try
-            {
-                Maybe<UserDto> updateUserStatistics = await _context.UserStatistics
-                    .Where(x => x.StatisticsId == id)
-                    .ProjectToSingleOrDefaultAsync<UserDto>(_mapper.ConfigurationProvider);
+        //        Maybe<UserDto> result = _mapper.Map<UserDto>(user);
 
-                _context.SaveChanges();
-                return Result.Success(updateUserStatistics);
-            }
-            catch (DbUpdateException ex)
-            {
-                _logger.Error("Connection to db is failed", ex);
-                return Result.Failure<Maybe<UserDto>>(ex.Message);
-            }
-        }
+        //        return Result.Success(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.Error("Connection to db is failed", ex);
+        //        return Result.Failure<Maybe<UserDto>>(ex.Message);
+        //    }
+        //}
 
         public async Task<Result<Maybe<WordDto>>> SelectWordsFromThemeAsync(int themeId)
         {
             _logger.Information("Select Words From Theme");
             try
             {
-                var getIdTheme = await _context.Themes.AsNoTracking().FirstOrDefaultAsync(x => x.ThemeId == themeId);
+                var getIdTheme = await _context.Themes.AsNoTracking()
+                    .FirstOrDefaultAsync(x => x.ThemeId == themeId);
                 var allWords = await _context.Words
                     .AsNoTracking()
                     .Where(x => x.ThemeId.ThemeId == getIdTheme.ThemeId)
-                    .Select(x => new WordDto() {
+                    .Select(x => new WordDto()
+                    {
                         WordId = x.WordId.ToString(),
                         Word = x.Word,
                         Theme = x.ThemeId.Theme,
@@ -93,7 +96,7 @@ namespace APerepechko.HangMan.Logic.Services
                     }).ToArrayAsync();
 
                 var rndNumb = new Random().Next(0, allWords.Count());
-                Maybe<WordDto> result =allWords[rndNumb];
+                Maybe<WordDto> result = allWords[rndNumb];
 
                 return Result.Success(result);
             }
@@ -103,20 +106,22 @@ namespace APerepechko.HangMan.Logic.Services
                 return Result.Failure<Maybe<WordDto>>(ex.Message);
             }
         }
-        //тестирование
-        public async Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync()
-        {
-            try
-            {
-                _logger.Information("Get all Users");
-                return await _context.User.AsNoTracking().ProjectToArrayAsync<UserDto>(_mapper.ConfigurationProvider);
-            }
-            catch (SqlException ex)
-            {
-                _logger.Error("Connection to db is failed", ex);
-                return Result.Failure<IEnumerable<UserDto>>(ex.Message);
-            }
-        }
+
+
+        ////тестирование
+        //public async Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync()
+        //{
+        //    try
+        //    {
+        //        _logger.Information("Get all Users");
+        //        return await _context.User.AsNoTracking().ProjectToArrayAsync<UserDto>(_mapper.ConfigurationProvider);
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        _logger.Error("Connection to db is failed", ex);
+        //        return Result.Failure<IEnumerable<UserDto>>(ex.Message);
+        //    }
+        //}
 
 
         public Result<UserStatisticsDto> UpdateStatistics(int id, [NotNull] UserStatisticsDto model)
@@ -142,6 +147,12 @@ namespace APerepechko.HangMan.Logic.Services
             }
         }
 
+        public Task<Result<UserStatisticsDto>> GetStatisticsByUser(int id, UserStatisticsDto model)
+        {
+            throw new NotImplementedException();
+        }
+
+
         public ThemeDto AddTheme(ThemeDto themeDto)
         {
             _logger.Information("AddTheme");
@@ -150,6 +161,11 @@ namespace APerepechko.HangMan.Logic.Services
             {
                 var theme = _mapper.Map<ThemesDb>(themeDto);
                 _context.Themes.Add(theme);
+                _context.Users.Include(x => x.Claims);
+                _context.Users.Include(x => x.Logins);
+                _context.Users.Include(x => x.Roles);
+
+
                 _context.SaveChanges();
 
             }
@@ -162,7 +178,7 @@ namespace APerepechko.HangMan.Logic.Services
             return themeDto;
         }
 
-        public  Result<WordDto> IsLetterExistWord(WordDto model)
+        public Result<WordDto> IsLetterExistWord(WordDto model)
         {
             _logger.Information("IsLetterExistWord");
             model.IsWin = false;
@@ -185,8 +201,7 @@ namespace APerepechko.HangMan.Logic.Services
         }
 
 
-        // есть  WordDto 
-
+        
         public async Task<Result<WordDto>> GenerateRandomWordAsync()
         {
             //случайное слово 
@@ -206,7 +221,7 @@ namespace APerepechko.HangMan.Logic.Services
                         SendChar = string.Empty,
                         IsWin = false,
                         HasChar = false
-                    }).FirstOrDefault() ;
+                    }).FirstOrDefault();
 
                 return Result.Success(result);
             }

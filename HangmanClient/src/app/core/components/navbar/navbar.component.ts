@@ -20,7 +20,10 @@ export class NavbarComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.user$ = this.loginSrv.LoggedOn$.pipe(
-      tap((u) => (this.isLogged = u !== null || u !== undefined))
+      tap((u) => {
+        this.isLogged = u !== null || u !== undefined;
+        console.log(u);
+      })
     );
   }
 

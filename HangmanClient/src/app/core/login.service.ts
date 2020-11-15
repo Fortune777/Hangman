@@ -53,14 +53,17 @@ export class LoginService {
   private user: UserDto;
 
   constructor(private router: Router, private oauth: OAuthService) {
-    this.oauth.configure(oauthConfig);
+    this.oauth.configure(oauthCodeConfig);
     this.oauth.loadDiscoveryDocumentAndTryLogin();
     this.oauth.events
       .pipe(
         filter((value) => value.type === 'token_received'),
         map((_) => Object.assign({} as UserDto, this.oauth.getIdentityClaims()))
       )
-      .subscribe((u) => this.loggedOnSubject.next(u));
+      .subscribe((u) => {
+        this.loggedOnSubject.next(u);
+        this.router.navigate(['/game']);
+      });
   }
 
   // tslint:disable-next-line: typedef

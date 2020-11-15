@@ -1,8 +1,6 @@
-import { ValueConverter } from '@angular/compiler/src/render3/view/template';
-import { environment } from './../../../../environments/environment.prod';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { switchMap, take } from 'rxjs/operators';
+import { switchMap } from 'rxjs/operators';
 import { HangmanService, WordDto } from '../../hangman.service';
 
 @Component({
@@ -14,10 +12,8 @@ export class GuessComponent implements OnInit {
   constructor(private route: ActivatedRoute, private service: HangmanService) {}
   WordResult: WordDto;
   idRoute: number;
-  cntError = 7;
+  cntProbe = 7;
 
-
-  // tslint:disable-next-line: member-ordering
   firstKeyBoard: Array<string> = [
     'а',
     'б',
@@ -32,7 +28,6 @@ export class GuessComponent implements OnInit {
     'й',
   ];
 
-  // tslint:disable-next-line: member-ordering
   secondKeyBoard: Array<string> = [
     'к',
     'л',
@@ -74,18 +69,26 @@ export class GuessComponent implements OnInit {
   // tslint:disable-next-line: typedef
   getsymbol(letter: string, id: string) {
     this.WordResult.SendChar = letter;
-    this.service.isLetterExistWord(this.WordResult).subscribe((x) => {
-      this.WordResult = x;
-      if (this.WordResult.HasChar) {
-        document.getElementById(id).setAttribute('style', 'background:green');
-        if (this.WordResult.IsWin) {
-          // сделать обратиться к бд и записать победу данного юзера
-          return;
-        }
-      } else {
-        document.getElementById(id).setAttribute('style', 'background:red');
-      }
-      document.getElementById(id).setAttribute('disabled', 'true');
+    this.service.isLetterExistWord(this.WordResult).subscribe((model) => {
+      this.logic(model, id);
     });
+  }
+
+  logic(model: WordDto, id: string): void {
+    this.WordResult = model;
+    if (this.WordResult.HasChar) {
+      document.getElementById(id).setAttribute('style', 'background:green');
+      if (this.WordResult.IsWin) {
+        // сделать обратиться к бд и записать победу данного юзера
+        return;
+      }
+    } else {
+      document.getElementById(id).setAttribute('style', 'background:red');
+      this.cntProbe--;
+      if (this.cntProbe === 0) {
+            
+      }
+    }
+    document.getElementById(id).setAttribute('disabled', 'true');
   }
 }

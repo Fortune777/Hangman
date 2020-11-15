@@ -12,20 +12,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http.ModelBinding;
+using APerepechko.HangMan.Data;
 
 namespace APerepechko.HangMan.Logic.Identity
 {
-
     [ConfigureAwait(false)]
     class UserService : IUserService
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IMapper _mapper;
+        private readonly HangmanContext _context;
 
-        public UserService(UserManager<IdentityUser> userManager, IMapper mapper)
+        public UserService(UserManager<IdentityUser> userManager, IMapper mapper, HangmanContext context)
         {
             _userManager = userManager;
-            this._mapper = mapper;
+            _mapper = mapper;
+            _context = context;
         }
 
         public async Task<Result> Register(NewUserDto model)
@@ -39,16 +41,24 @@ namespace APerepechko.HangMan.Logic.Identity
 
             var result = await _userManager.CreateAsync(user, model.Password).ConfigureAwait(false);
             await _userManager.AddToRoleAsync(user.Id, "user");
-
+            
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user.Id);
 
             await _userManager.SendEmailAsync(user.Id, "Confirm your email",
                 $"click on https://localhost:44313/api/user/email/confirm?userId={user.Id}&token={token}");
 
+            await FillStatistics(user);
 
             return result.Succeeded ? Result.Success() : Result.Failure(result.Errors.Aggregate((a, b) => $"{a},{b}"));
         }
 
+        private async Task FillStatistics(IdentityUser user)
+        {
+            UserStatisticsDb statisticsDb = new UserStatisticsDb();
+            statisticsDb.StatisticsId = user.Id;
+            _context.UserStatistics.Add(statisticsDb);
+            await _context.SaveChangesAsync();
+        }
 
         public async Task ValidateEmailToken(string userId, string token)
         {

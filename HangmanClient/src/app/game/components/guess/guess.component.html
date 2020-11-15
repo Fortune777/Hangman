@@ -1,8 +1,13 @@
 <div class="container">
-  <p>Кол-во попыток {{ WordResult.Theme }}</p>
-  <p>Текущее {{ WordResult.Word }}</p>
-  <p>Кол-во попыток {{ WordResult.HasChar }}</p>
+  <h1> Тема: {{this.WordResult.Theme}}</h1>
+  <div class="row"></div>
+  <h2>Осталось попыток: {{ this.cntProbe }}</h2>
+  <h2>Кол-во символов в слове: {{this.WordResult.Word.length}} </h2>
+
+  <p>Текущее отгаданное слово {{ WordResult.Word }}</p>
   <p>Кол-во попыток {{ WordResult.RemainingLetters }}</p>
+
+
 
   <div class="row addHW">
     <div class="col-md-1" *ngFor="let number of firstKeyBoard; index as i">

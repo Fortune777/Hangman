@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web.Http;
-using APerepechko.HangMan.Logic.Model;
+﻿using APerepechko.HangMan.Logic.Model;
 using APerepechko.HangMan.Logic.Services;
 using Swashbuckle.Swagger.Annotations;
+using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Threading.Tasks;
+using System.Web.Http;
 
 namespace GamePortal.Web.Api.Controllers.Hangman
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/hangman")]
     public class HangmanController : ApiController
     {
@@ -36,9 +35,9 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             return result.Value.HasNoValue ? (IHttpActionResult)NotFound() : Ok(result.Value.Value);
         }
 
-   
+
         // [HttpGet, Authorize]
-        [HttpGet, HostAuthentication("Bearer")]
+        [HttpGet]
         [Route("GetAllThemesAsync")]
         [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<ThemeDto>))]
         [SwaggerResponse(HttpStatusCode.InternalServerError)]
@@ -47,7 +46,7 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             var result = await _hangmanService.GetAllThemesAsync();
             return result.IsSuccess ? Ok(result.Value) : (IHttpActionResult)StatusCode(HttpStatusCode.InternalServerError);
         }
- 
+
 
 
         [HttpGet]
@@ -66,10 +65,10 @@ namespace GamePortal.Web.Api.Controllers.Hangman
         [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public IHttpActionResult IsLetterExistWord([FromBody] WordDto model)
         {
-            var result =  _hangmanService.IsLetterExistWord(model);
+            var result = _hangmanService.IsLetterExistWord(model);
             return result.IsSuccess ? Ok(result.Value) : (IHttpActionResult)StatusCode(HttpStatusCode.InternalServerError);
         }
-
+            
         //update
         [HttpPut]
         [Route("UpdateStatistics/Update/{id:int}")]
@@ -77,14 +76,16 @@ namespace GamePortal.Web.Api.Controllers.Hangman
         [SwaggerResponse(HttpStatusCode.NoContent)]
         public IHttpActionResult UpdateUserStatistics(int id, [FromBody] UserStatisticsDto model)
         {
-            var result =  _hangmanService.UpdateStatistics(id, model);
+            var result = _hangmanService.UpdateStatistics(id, model);
             return result.IsSuccess ? StatusCode(HttpStatusCode.NoContent) : (IHttpActionResult)InternalServerError();
         }
 
 
         [HttpGet]
-        [Route("")]
-        public IHttpActionResult GetAllUsers([FromBody] WordDto model)
+        [Route("GetAllUsers/Get")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(UserDto))]
+        [SwaggerResponse(HttpStatusCode.NoContent)]
+        public IHttpActionResult GetAllUsers([FromBody] UserDto model)
         {
             //  var users = _hangmanService.GetAllUsers(model);
 
@@ -95,14 +96,15 @@ namespace GamePortal.Web.Api.Controllers.Hangman
 
 
         //Route {id} - параметр id имя должен быть такое же, как и в сигнатуре метода 
-        [HttpGet]
-        [Route("{id}")]
-        public IHttpActionResult GetUserById(int id)
-        {
-            //если не нашли юзера тогда
-            // return id == null ? (IHttpActionResult)NotFound() : Ok(user);
-            return Ok();
-        }
+        //[HttpGet]
+        //[Route("GetUserById/Get/{id:int}")]
+        //[SwaggerResponse(HttpStatusCode.OK, Type = typeof(UserDto))]
+        //[SwaggerResponse(HttpStatusCode.NoContent)]
+        //public async Task<IHttpActionResult> GetUserById(int id)
+        //{
+        //    var result = await _hangmanService.GetUserByIdAsync(id);
+        //    return result.IsSuccess ? StatusCode(HttpStatusCode.NoContent) : (IHttpActionResult)InternalServerError(new Exception(result.Error));
+        //}
 
         [HttpPost]
         [Route("AddTheme")]
@@ -127,7 +129,7 @@ namespace GamePortal.Web.Api.Controllers.Hangman
             //delete
             return StatusCode(HttpStatusCode.NoContent);
         }
-      
+
         protected override void Dispose(bool disposing)
         {
             base.Dispose(disposing);

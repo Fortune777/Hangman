@@ -35,7 +35,7 @@ export const routes: Routes = [
   { path: 'index.html', component: HomeComponent },
   { path: 'version', component: VersionComponent },
   { path: 'docm', component: DocmComponent },
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];
 

@@ -47,7 +47,6 @@ export class LoginComponent implements OnInit {
 
   // tslint:disable-next-line: typedef
   loginWithPassword() {
-    console.log(this.loginGroup.value);
     this.loginService.login(
       this.loginGroup.value.username,
       this.loginGroup.value.password
