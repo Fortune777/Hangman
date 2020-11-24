@@ -40,4 +40,16 @@ namespace APerepechko.HangMan.Data.Profiles
             CreateMap<IdentityUser, UserDto>();
         }
     }
+
+    //public class UserDbDto : Profile
+    //{
+    //    public UserDbDto()
+    //    {
+    //        CreateMap<UserDto, UserDb>()
+    //            .ForMember(dest =>dest.UserId, opt =>opt.MapFrom(src=>src.Id))
+    //            .ForMember(dest =>dest.UserName, opt =>opt.MapFrom(src=>src.UserName))
+    //            .ReverseMap();
+    //    }
+    //}
+
 }

@@ -1,1 +1,85 @@
-<p>guess works!</p>
+<div class="container">
+  <h1 class="text-center"> Тема: {{this.WordResult.Theme}}</h1>
+  <div class="row mb-5">
+  <div class="col">
+    <h2>Осталось попыток: {{ this.cntProbe }}</h2>
+  </div>
+  <!-- <div class="col">
+    <h2>Кол-во символов в слове: {{this.WordResult.Word.length}} </h2>
+  </div> -->
+  <p>Текущее отгаданное слово {{ WordResult.Word }}</p>
+  <p>Кол-во попыток {{ WordResult.RemainingLetters }}</p>
+</div>
+
+
+  <div class="row">
+      <div class="col" *ngFor="let letters of this.showWord">
+      <p class="text-center text-uppercase"> {{ letters }} </p>
+    </div>
+  </div>
+
+  <div class="row addHW">
+    <div class="col-md-1" *ngFor="let number of firstKeyBoard; index as ind">
+      <button
+        class="bntStyle shadow-sm p-3 mb-5 rounded"
+        type="button"
+        [attr.id]="'id' + ind"
+        (click)="getsymbol(number, 'id' + ind)"
+      >
+        {{ number }}
+      </button>
+    </div>
+  </div>
+
+  <div class="row addHW">
+    <div class="col-md-1" *ngFor="let number of secondKeyBoard; index as ind">
+      <button
+        class="bntStyle shadow-sm p-3 mb-5 rounded"
+        type="button"
+        [attr.id]="'id2' + ind"
+        (click)="getsymbol(number, 'id2' + ind)"
+      >
+        {{ number }}
+      </button>
+    </div>
+  </div>
+
+  <div class="row addHW">
+    <div class="col-md-1" *ngFor="let number of threeKeyBoard; index as ind">
+      <button
+        class="bntStyle shadow-sm p-3 mb-5 rounded"
+        type="button"
+        [attr.id]="'id3' + ind"
+        (click)="getsymbol(number, 'id3' + ind)"
+      >
+        {{ number }}
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <ng-template [ngIf]="this.WordResult.IsWin">
+    <div class="row  mt-5">
+    <p class="text-success text-uppercase">
+      Вы отгадали слово
+    </p>
+    <button type="button" class="btn btn-success btn-lg" (click)="this.GenerateNewWord()" >Отгадать новое слово</button>
+  </div>
+    </ng-template>
+
+
+  <ng-template [ngIf]="this.cntProbe < 0">
+   <div class="row mt-5">
+    <p class="text-danger text-uppercase">
+        Слово не отгадано
+    </p>
+    <button type="button" class="btn btn-success btn-lg" (click)="this.GenerateNewWord()" >Отгадать новое слово</button>
+   </div>
+  </ng-template>
+</div>

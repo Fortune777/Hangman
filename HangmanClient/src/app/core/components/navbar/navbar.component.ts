@@ -1,28 +1,38 @@
 import { UserDto } from '../../models/userDto';
-import { OAuthService } from 'angular-oauth2-oidc';
 import { LoginService } from '../../../core/login.service';
-import { Component, OnInit, NgModule } from '@angular/core';
-import { map } from 'rxjs/operators';
+import { Component, OnInit, NgModule, OnDestroy } from '@angular/core';
+import { Observable, Subscription } from 'rxjs';
+import { tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss'],
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent implements OnInit, OnDestroy {
   message = 'msgForm';
-  isLogged = false;
   email: string;
+  user$: Observable<UserDto>;
+  isLogged = false;
+  // private subscriptions: Subscription;
 
-  constructor(public loginSrv: LoginService, private oauth: OAuthService) {
-    this.loginSrv.LoggedOn$.pipe(
-      map((_) => this.oauth.getIdentityClaims())
-    ).subscribe((obj) => {
-      this.isLogged = obj !== null;
-      const user = Object.assign({} as UserDto, obj);
-      this.email = user.email;
-    });
+  constructor(private loginSrv: LoginService) {}
+
+  ngOnInit(): void {
+    this.user$ = this.loginSrv.LoggedOn$.pipe(
+      tap((u) => {
+        this.isLogged = u !== null || u !== undefined;
+        console.log(u);
+      })
+    );
   }
 
-  ngOnInit(): void {}
+  ngOnDestroy(): void {
+    // this.subscriptions.unsubscribe();
+  }
+
+  // tslint:disable-next-line: typedef
+  logout() {
+    this.loginSrv.logout();
+  }
 }

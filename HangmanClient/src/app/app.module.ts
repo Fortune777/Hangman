@@ -1,3 +1,6 @@
+import { AuthInterceptor } from './core/interceptor/Auth.Interceptor';
+import { VersionComponent } from './version/component/version.component';
+import { FormsModule } from '@angular/forms';
 import { GameModule } from './game/game.module';
 import { UserModule } from './user/user.module';
 import { CoreModule } from './core/core.module';
@@ -6,11 +9,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
-import {
-  SignalRModule,
-  SignalRConfiguration,
-  ConnectionTransport,
-} from 'ng2-signalr';
+import { SignalRConfiguration } from 'ng2-signalr';
+import { DocmComponent } from './document/docm/docm.component';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
 export function initConfig(): SignalRConfiguration {
   const cfg = new SignalRConfiguration();
@@ -22,15 +23,19 @@ export function initConfig(): SignalRConfiguration {
 }
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, VersionComponent, DocmComponent],
   imports: [
     BrowserModule,
     HangmanroutingModule,
+    FormsModule,
     CoreModule,
     UserModule,
     GameModule,
   ],
-  providers: [],
+  exports: [VersionComponent, DocmComponent],
+  providers: [
+    // { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,8 +1,6 @@
 ﻿using APerepechko.HangMan.Logic.Services.Contracts;
 using Microsoft.Owin.Security;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Swashbuckle.Swagger.Annotations;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -20,6 +18,8 @@ namespace GamePortal.Web.Api.Controllers
         }
 
         [HttpGet, Route("external/google")]
+        [SwaggerResponse(HttpStatusCode.OK)]
+        [SwaggerResponse(HttpStatusCode.InternalServerError)]
         public async Task<IHttpActionResult> GoogleLogin()
         {
             var provider = Request.GetOwinContext().Authentication;

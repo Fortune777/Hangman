@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 using Serilog;
 using System.Data.Entity;
-using System.Diagnostics;
-
-
 
 namespace APerepechko.HangMan.Data
 {
@@ -13,20 +10,23 @@ namespace APerepechko.HangMan.Data
         public HangmanContext() : base("HangmanCon")
         {
             Database.SetInitializer(new DbContextInitializer());
-        }
+        }   
 
         public HangmanContext(ILogger logger) : base("HangmanCon")
         {
             Database.SetInitializer(new DbContextInitializer());
-            //Database.Log = msg => logger.Debug(msg);
+            Database.Log = msg => logger.Debug(msg);
         }
 
 
         public DbSet<ThemesDb> Themes { get; set; }
         public DbSet<WordsDb> Words { get; set; }
-
         public DbSet<UserStatisticsDb> UserStatistics { get; set; }
-        public DbSet<UserDb> User { get; set; }
+
+
+        //public DbSet<IdentityUserRole> UserRoles { get; set; }
+        //public DbSet<IdentityUserClaim> Claims { get; set; }
+        //public DbSet<IdentityUserLogin> Logins { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -34,5 +34,6 @@ namespace APerepechko.HangMan.Data
             base.OnModelCreating(modelBuilder);
             modelBuilder.Configurations.AddFromAssembly(typeof(HangmanContext).Assembly);
         }
+ 
     }
 }

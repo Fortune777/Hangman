@@ -106,9 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dbContext\HangmanContext.cs" />
-    <Compile Include="dbContext\HangmanDbConficuration.cs" />
+    <Compile Include="dbContext\HangmanDbConfiguration.cs" />
     <Compile Include="Entity\ThemesDb.cs" />
-    <Compile Include="Entity\UserDb.cs" />
     <Compile Include="Entity\UserStatisticsDb.cs" />
     <Compile Include="Entity\WordsDb.cs" />
     <Compile Include="InitializerDb\InitializerDb.cs" />
@@ -119,6 +118,10 @@
     <Compile Include="Migrations\202008112023469_AddIdentity.cs" />
     <Compile Include="Migrations\202008112023469_AddIdentity.designer.cs">
       <DependentUpon>202008112023469_AddIdentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011131008387_ClearUSersDb.cs" />
+    <Compile Include="Migrations\202011131008387_ClearUSersDb.designer.cs">
+      <DependentUpon>202011131008387_ClearUSersDb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008112023469_AddIdentity.resx">
       <DependentUpon>202008112023469_AddIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011131008387_ClearUSersDb.resx">
+      <DependentUpon>202011131008387_ClearUSersDb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

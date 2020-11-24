@@ -26,7 +26,6 @@
 
             context.Roles.Add(new IdentityRole("user"));
             context.SaveChanges();
-
         }
     }
 }

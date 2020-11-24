@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿ 
 using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace APerepechko.HangMan.Data.dbContext
 {
-    class WordsDbConfiguration : EntityTypeConfiguration<WordsDb>
+   
+
+    internal class WordsDbConfiguration : EntityTypeConfiguration<WordsDb>
     {
         public WordsDbConfiguration()
         {
@@ -15,7 +13,8 @@ namespace APerepechko.HangMan.Data.dbContext
             HasOptional(x => x.ThemeId).WithMany(p => p.Words).Map(m => m.MapKey("ThemeId"));
         }
     }
-    class ThemesDbConfiguration : EntityTypeConfiguration<ThemesDb>
+
+    internal class ThemesDbConfiguration : EntityTypeConfiguration<ThemesDb>
     {
         public ThemesDbConfiguration()
         {
@@ -23,15 +22,15 @@ namespace APerepechko.HangMan.Data.dbContext
         }
     }
 
-    class UserDbConfiguration : EntityTypeConfiguration<UserDb>
-    {
-        public UserDbConfiguration()
-        {
-            HasKey(x => x.UserId).HasRequired(c => c.UserStatisticsId).WithRequiredPrincipal(p => p.UserId);
-        }
-    }
+    //internal class UserDbConfiguration : EntityTypeConfiguration<UserDb>
+    //{
+    //    public UserDbConfiguration()
+    //    {
+    //        HasKey(x => x.UserId).HasRequired(c => c.UserStatisticsId).WithRequiredPrincipal(p => p.UserId);
+    //    }
+    //}
 
-    class UserStatisticsDbConfiguration : EntityTypeConfiguration<UserStatisticsDb>
+    internal class UserStatisticsDbConfiguration : EntityTypeConfiguration<UserStatisticsDb>
     {
         public UserStatisticsDbConfiguration()
         {
@@ -44,5 +43,5 @@ namespace APerepechko.HangMan.Data.dbContext
         }
     }
 
-    
+
 }
