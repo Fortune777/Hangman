@@ -107,23 +107,6 @@ namespace APerepechko.HangMan.Logic.Services
             }
         }
 
-
-        ////тестирование
-        //public async Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync()
-        //{
-        //    try
-        //    {
-        //        _logger.Information("Get all Users");
-        //        return await _context.User.AsNoTracking().ProjectToArrayAsync<UserDto>(_mapper.ConfigurationProvider);
-        //    }
-        //    catch (SqlException ex)
-        //    {
-        //        _logger.Error("Connection to db is failed", ex);
-        //        return Result.Failure<IEnumerable<UserDto>>(ex.Message);
-        //    }
-        //}
-
-
         public Result<UserStatisticsDto> UpdateStatistics(int id, [NotNull] UserStatisticsDto model)
         {
             _logger.Information("UpdateStatistics requested by anonymous");
@@ -132,11 +115,8 @@ namespace APerepechko.HangMan.Logic.Services
                 var dbModel = _mapper.Map<UserStatisticsDb>(model);
                 _context.UserStatistics.Attach(dbModel);
                 var entry = _context.Entry(dbModel);
-                // global state
                 entry.State = EntityState.Modified;
 
-                //entry.Property(x => x.Name).IsModified = true; 
-                //entry.Property(x => x.Price).IsModified = true;
                 _context.SaveChanges(); //UPDATE
                 return Result.Success(model);
             }
@@ -153,6 +133,8 @@ namespace APerepechko.HangMan.Logic.Services
         }
 
 
+
+
         public ThemeDto AddTheme(ThemeDto themeDto)
         {
             _logger.Information("AddTheme");
@@ -164,15 +146,11 @@ namespace APerepechko.HangMan.Logic.Services
                 _context.Users.Include(x => x.Claims);
                 _context.Users.Include(x => x.Logins);
                 _context.Users.Include(x => x.Roles);
-
-
                 _context.SaveChanges();
-
             }
             catch (UpdateException ex)
             {
                 _logger.Error("Connection to db is failed", ex);
-                // return Result.Failure<WordDto>(ex.Message);
             }
 
             return themeDto;
@@ -195,13 +173,13 @@ namespace APerepechko.HangMan.Logic.Services
                 model.IsWin = true;
             }
 
-            model.SendChar = null;
+           
 
             return Result.Success(model);
         }
 
 
-        
+
         public async Task<Result<WordDto>> GenerateRandomWordAsync()
         {
             //случайное слово 

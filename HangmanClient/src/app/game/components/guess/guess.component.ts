@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { routes } from './../../../hangmanrouting.module';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
 import { HangmanService, WordDto } from '../../hangman.service';
 
@@ -9,11 +10,18 @@ import { HangmanService, WordDto } from '../../hangman.service';
   styleUrls: ['./guess.component.scss'],
 })
 export class GuessComponent implements OnInit {
-  constructor(private route: ActivatedRoute, private service: HangmanService) {}
+  constructor(
+    private route: ActivatedRoute,
+    private service: HangmanService,
+    private router: Router
+  ) {}
+
   WordResult: WordDto;
   idRoute: number;
   cntProbe = 7;
+  showWord: Array<string>;
 
+  //
   firstKeyBoard: Array<string> = [
     'а',
     'б',
@@ -61,9 +69,10 @@ export class GuessComponent implements OnInit {
       .pipe(switchMap((params) => params.getAll('id')))
       .subscribe((data) => (this.idRoute = +data));
 
-    this.service
-      .selectWordsFromTheme(this.idRoute)
-      .subscribe((x) => (this.WordResult = x));
+    this.service.selectWordsFromTheme(this.idRoute).subscribe((x) => {
+      this.WordResult = x;
+      this.showWord = '-'.repeat(x.Word.length).split('');
+    });
   }
 
   // tslint:disable-next-line: typedef
@@ -72,23 +81,39 @@ export class GuessComponent implements OnInit {
     this.service.isLetterExistWord(this.WordResult).subscribe((model) => {
       this.logic(model, id);
     });
+    this.WordResult.SendChar = null;
   }
 
   logic(model: WordDto, id: string): void {
     this.WordResult = model;
     if (this.WordResult.HasChar) {
-      document.getElementById(id).setAttribute('style', 'background:green');
+      document.getElementById(id).classList.add('bg-success');
+
+      for (let index = 0; index < this.WordResult.Word.length; index++) {
+        if (this.WordResult.Word[index] === this.WordResult.SendChar) {
+          this.showWord[index] = this.WordResult.SendChar;
+          // const fstr = this.showWord.substr(0, index);
+          // const sstr = this.showWord.substr(index, this.showWord.length);
+
+          // this.showWord = fstr + this.WordResult.SendChar + sstr;
+        }
+      }
+
       if (this.WordResult.IsWin) {
         // сделать обратиться к бд и записать победу данного юзера
         return;
       }
     } else {
-      document.getElementById(id).setAttribute('style', 'background:red');
+      document.getElementById(id).classList.add('bg-danger');
       this.cntProbe--;
-      if (this.cntProbe === 0) {
-            
-      }
+      // if (this.cntProbe === 0) {
+      //   this.router.navigate(['home']);
+      // }
     }
     document.getElementById(id).setAttribute('disabled', 'true');
+  }
+
+  GenerateNewWord() {
+    this.router.navigate(['game']);
   }
 }

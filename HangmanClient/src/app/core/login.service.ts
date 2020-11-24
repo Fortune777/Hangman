@@ -47,9 +47,9 @@ export const oauthCodeConfig: AuthConfig = {
 
 @Injectable({ providedIn: 'root' })
 export class LoginService {
-  private loggedOnSubject: BehaviorSubject<UserDto> = new BehaviorSubject<
-    UserDto
-  >(null);
+  private loggedOnSubject: BehaviorSubject<UserDto> = new BehaviorSubject<UserDto>(
+    null
+  );
   private user: UserDto;
 
   constructor(private router: Router, private oauth: OAuthService) {
@@ -78,9 +78,9 @@ export class LoginService {
 
   // tslint:disable-next-line: typedef
   login(userName?: string, password?: string) {
-    if (!userName || !password) {
-      this.oauth.initLoginFlow();
-    }
+    // if (!userName || !password) {
+    //   this.oauth.initLoginFlow();
+    // }
 
     // Promise -> Observable
     this.oauth
@@ -90,6 +90,12 @@ export class LoginService {
         this.loggedOnSubject.next(this.user);
       })
       .catch((reason) => console.error(reason));
+  }
+
+  getClaims(): object {
+    const claims = this.oauth.getIdentityClaims();
+    console.log(claims);
+    return claims;
   }
 
   // tslint:disable-next-line: typedef
