@@ -14,15 +14,13 @@ namespace APerepechko.HangMan.Logic.Services
         Task<Result<WordDto>> GenerateRandomWordAsync();
         Result<WordDto> IsLetterExistWord(WordDto model);
         Task<Result<Maybe<WordDto>>> SelectWordsFromThemeAsync(int themeId);
-
-        Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync();
-
         Result<UserStatisticsDto> UpdateStatistics(int id, UserStatisticsDto model);
+        Task<Result<UserStatisticsDto>> GetStatisticsByUser(int id, UserStatisticsDto model);
 
-        Task<Result<Maybe<UserDto>>> GetUserByIdAsync(int id);
-        
+        // Task<Result<Maybe<UserDto>>> GetUserByIdAsync(string id);
 
 
+        // Task<Result<IEnumerable<UserDto>>> GetAllUsersAsync();
 
         //void Delete();
         // ThemeDto AddTheme(ThemeDto themeDto);

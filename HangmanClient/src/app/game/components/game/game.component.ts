@@ -1,3 +1,4 @@
+import { LoginService } from './../../../core/login.service';
 import { HangmanService, WordDto, ThemeDto } from './../../hangman.service';
 import { FormBuilder } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
@@ -14,11 +15,17 @@ export class GameComponent implements OnInit {
   wordResult: WordDto;
   selId = '0';
 
-  constructor(public hangmanClient: HangmanService) {}
+  constructor(
+    public hangmanClient: HangmanService,
+    public login: LoginService
+  ) {}
 
   ngOnInit(): void {
     this.hangmanClient
       .getAllThemes()
       .subscribe((data) => (this.Alltheme = data));
+
+    const claims = this.login.getClaims();
+    debugger;
   }
 }

@@ -120,9 +120,8 @@ namespace GamePortal.Web.Api
             //});
 
 
+          app.UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
 
-
-            app.UseNinjectMiddleware(() => kernel).UseNinjectWebApi(config);
         }
 
 
@@ -137,16 +136,28 @@ namespace GamePortal.Web.Api
                 AllowAccessToAllScopes = true,
                 ClientName = "Hangman Client",
                 Flow = Flows.AuthorizationCode,
-                RedirectUris = new List<string>() { "https://localhost:5555", "https://localhost:4200/index.html", "http://localhost:50698" , "https://localhost:44307"},
+                RedirectUris = new List<string>() {  "https://localhost:4200/index.html", "http://localhost:50698" , "https://localhost:44307"},
                 PostLogoutRedirectUris = new List<string>() { "http://localhost:50698", "https://localhost:4200/index.html", "https://localhost:44307" }
             };
-            var user = new InMemoryUser()
+
+            var userClient = new Client()
             {
-                Username = "qwe",
-                Password = "qwe1423",
-                Subject = "123-123-123",
-                //Claims = new[] { new Claim("api-version", "1") }
+                ClientId = "HangmanClientUser",
+                ClientSecrets = new List<Secret>() { new Secret("secret".Sha256()) },
+                AllowAccessToAllScopes = true,
+                ClientName = "Hangman Web Client",
+                Flow = Flows.ResourceOwner,
+                RedirectUris = new List<string>()  {"https://localhost:4200/index.html", "http://localhost:50698", "https://localhost:44307" },
+               // PostLogoutRedirectUris = new List<string>() { "http://localhost:50698", "https://localhost:4200/index.html", "https://localhost:44307" }
             };
+
+            //var user = new InMemoryUser()
+            //{
+            //    Username = "qwe",
+            //    Password = "qwe1423",
+            //    Subject = "123-123-123",
+            //    //Claims = new[] { new Claim("api-version", "1") }
+            //};
 
             factory.UseInMemoryScopes(StandardScopes.All.Append(new Scope()
             {
@@ -154,8 +165,8 @@ namespace GamePortal.Web.Api
                 Type = ScopeType.Identity,
                 //Claims = new List<ScopeClaim>{new ScopeClaim("api-version", true)}
             }))
-                .UseInMemoryClients(new[] { client })
-                .UseInMemoryUsers(new List<InMemoryUser>() { user });
+                .UseInMemoryClients(new[] { client, userClient });
+            //    .UseInMemoryUsers(new List<InMemoryUser>() { user });
 
 
             factory.UserService =
@@ -165,9 +176,9 @@ namespace GamePortal.Web.Api
             app.UseIdentityServer(new IdentityServerOptions
             {
                 EnableWelcomePage = true,
-#if DEBUG
+                #if DEBUG
                 RequireSsl = false,
-#endif
+                #endif
                 LoggingOptions = new LoggingOptions
                 {
                     EnableHttpLogging = true,
@@ -181,14 +192,14 @@ namespace GamePortal.Web.Api
             })
             .UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
-                Authority = "https://localhost:44307",
+                Authority = "http://localhost:50698",
                 ClientId = "HangmanClient",
                 ClientSecret = "secret",
                 RequireHttps = false,
                 ValidationMode = ValidationMode.Both,
-                IssuerName = "https://localhost:44307",
+                IssuerName = "http://localhost:50698",
                 SigningCertificate = LoadCertificate(),
-                ValidAudiences = new[] { "https://localhost:44307/resources" }
+                ValidAudiences = new[] { "http://localhost:50698/resources" }
             });
         }
 

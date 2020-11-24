@@ -14,11 +14,11 @@ import { OAuthService, AuthConfig, OAuthEvent } from 'angular-oauth2-oidc';
 import { Router } from '@angular/router';
 import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 
-export const oauthConfig: AuthConfig = {
+export const oauthPasswordConfig: AuthConfig = {
   issuer: 'http://localhost:50698',
   redirectUri: window.location.origin + '/index.html',
   clientId: 'HangmanClient',
-  responseType: 'code',
+  // responseType: 'code',
   dummyClientSecret: 'secret',
   scope: 'openid profile email',
   requireHttps: false,
@@ -29,22 +29,41 @@ export const oauthConfig: AuthConfig = {
   postLogoutRedirectUri: window.location.origin + '/login',
 };
 
+// оригинал
+export const oauthCodeConfig: AuthConfig = {
+  issuer: 'http://localhost:50698',
+  redirectUri: window.location.origin + '/index.html',
+  clientId: 'HangmanClientUser',
+  responseType: 'code',
+  dummyClientSecret: 'secret',
+  scope: 'openid profile email',
+  requireHttps: false,
+  skipIssuerCheck: true,
+  showDebugInformation: true,
+  disablePKCE: true,
+  // oidc: false,
+  postLogoutRedirectUri: window.location.origin + '/login',
+};
+
 @Injectable({ providedIn: 'root' })
 export class LoginService {
-  private loggedOnSubject: BehaviorSubject<UserDto> = new BehaviorSubject<
-    UserDto
-  >(null);
+  private loggedOnSubject: BehaviorSubject<UserDto> = new BehaviorSubject<UserDto>(
+    null
+  );
   private user: UserDto;
 
   constructor(private router: Router, private oauth: OAuthService) {
-    this.oauth.configure(oauthConfig);
+    this.oauth.configure(oauthCodeConfig);
     this.oauth.loadDiscoveryDocumentAndTryLogin();
     this.oauth.events
       .pipe(
         filter((value) => value.type === 'token_received'),
         map((_) => Object.assign({} as UserDto, this.oauth.getIdentityClaims()))
       )
-      .subscribe((u) => this.loggedOnSubject.next(u));
+      .subscribe((u) => {
+        this.loggedOnSubject.next(u);
+        this.router.navigate(['/game']);
+      });
   }
 
   // tslint:disable-next-line: typedef
@@ -59,18 +78,24 @@ export class LoginService {
 
   // tslint:disable-next-line: typedef
   login(userName?: string, password?: string) {
-    if (!userName || !password) {
-      this.oauth.initLoginFlow();
-    }
+    // if (!userName || !password) {
+    //   this.oauth.initLoginFlow();
+    // }
 
     // Promise -> Observable
     this.oauth
-      .fetchTokenUsingPasswordFlowAndLoadUserProfile(userName, password)
+      .fetchTokenUsingPasswordFlowAndLoadUserProfile('boss', '1423')
       .then((userInfo) => {
         this.user = Object.assign({} as UserDto, userInfo);
         this.loggedOnSubject.next(this.user);
       })
       .catch((reason) => console.error(reason));
+  }
+
+  getClaims(): object {
+    const claims = this.oauth.getIdentityClaims();
+    console.log(claims);
+    return claims;
   }
 
   // tslint:disable-next-line: typedef

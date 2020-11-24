@@ -1,3 +1,4 @@
+import { environment } from 'src/environments/environment';
 import { LoginService } from './login.service';
 import { OAuthModule } from 'angular-oauth2-oidc';
 import { NotFoundComponent } from './components/not-found/not-found.component';
@@ -23,7 +24,18 @@ import { provideRoutes } from '@angular/router';
     HomeComponent,
   ],
 
-  imports: [CommonModule, ReactiveFormsModule, OAuthModule.forRoot()],
+  imports: [
+    CommonModule,
+    ReactiveFormsModule,
+    OAuthModule.forRoot({
+      resourceServer: {
+        // прикреплять аксесс токен
+        sendAccessToken: true,
+        // разрешить для урл
+        allowedUrls: [environment.backendUrl],
+      },
+    }),
+  ],
 
   exports: [
     LoginComponent,

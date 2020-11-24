@@ -1,0 +1,77 @@
+<div class="container">
+  <button (click)="this.Toggle = !this.Toggle">ToggleButton</button>
+
+  <p>{{ now | date }}</p>
+
+  <!-- -------------------- примеры ngFor -->
+  <!-- <ul>
+    <li *ngFor="let item of arr; let idx = index"> -->
+  <!-- index  - зарезервированное ключевое слово индекс в массиве-->
+  <!-- {{ idx }} --- value {{ item }}
+    </li>
+  </ul> -->
+
+<!-- <ul style="list-style: none">
+    <li *ngFor="let item of this.objs">
+      <p>{{ item.title }}</p>
+      <strong>{{ item.author }}</strong>
+      <ul>
+        <li *ngFor="let cmt of this.item.comments">
+          <div>
+            <small>{{ cmt.name }}</small>
+            <b>{{ cmt.text }}</b>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul> -->
+  <!-- -------------------- примеры ngFor ----------------примеры ngSwitch -->
+  <!-- <button (click)="this.Toggle = 111">set 111</button>
+  <div [ngSwitch]="this.Toggle">
+    <p *ngSwitchCase="true" class="red">Lorem, ipsum.</p>
+    <p *ngSwitchCase="false" class="blue">Lorem, ipsum.</p>
+    <p *ngSwitchDefault class="blue">NgSwitch Default</p>
+  </div> -->
+  <!-- ----------------примеры ngSwitch ----------------примеры ngIf -->
+  <!-- <p *ngIf="this.Toggle; else blueP" class="blue">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, cumque.
+  </p>
+  <ng-template #blueP>
+    <p class="red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, cumque.
+    </p>
+  </ng-template> -->
+
+  <!--
+  <p [class.blue]="!this.Toggle" [class.red]="this.Toggle">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos.
+  </p>
+или 2 варианта изменения  класса свойств
+  <p
+    [ngClass]="{
+      red: this.Toggle === true,
+      blue: !this.Toggle
+    }"
+  >
+    quaerat. Odit, voluptatem
+  </p> -->
+  <!-- ----------------примеры ngIf ----------------примеры ngStyle -->
+  <!-- <div
+     определение свойств  стиля в зависимости от переменных ngStyle
+    [ngStyle]="{
+      width: '200px',
+      height: '200px',
+      borderRadius: '5px',
+      border: '1px solid #ccc',
+      background: this.Toggle ? 'red' : 'blue'
+    }"
+  ></div> -->
+  <!-- ----------------примеры ngStyle -->
+</div>
+
+<!-- <input type="text" (input)="this.onInput(myInput.value)" #myInput />
+  <p>{{ this.inputValue }}</p> -->
+
+<!-- two way bindings
+  <input [(ngModel)]="this.title" type="text" />
+  <p>{{ this.title }}</p> -->

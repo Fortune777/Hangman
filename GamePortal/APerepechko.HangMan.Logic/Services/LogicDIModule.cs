@@ -73,12 +73,7 @@ namespace APerepechko.HangMan.Logic.Services
                 return manager;
             });
 
-
-
             this.Bind<IUserService>().To<UserService>();
-
-
-
         }
     }
 }

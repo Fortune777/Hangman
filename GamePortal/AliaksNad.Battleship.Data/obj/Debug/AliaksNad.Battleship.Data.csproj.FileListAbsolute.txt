@@ -30,3 +30,4 @@ C:\Hangman\GamePortal\AliaksNad.Battleship.Data\bin\Debug\AliaksNad.Battleship.D
 C:\Hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csproj.CoreCompileInputs.cache
 C:\Hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.dll
 C:\Hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.pdb
+C:\hangman\GamePortal\AliaksNad.Battleship.Data\obj\Debug\AliaksNad.Battleship.Data.csprojAssemblyReference.cache
